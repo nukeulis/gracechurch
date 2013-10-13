@@ -1,0 +1,11 @@
+@import url(//fonts.googleapis.com/css?family=Ubuntu:400);
+@import url(//fonts.googleapis.com/css?family=Ubuntu:700);
+
+
+
+ul.list1 li .count {behavior:url(js/PIE.htc); position: relative;}
+
+
+.socia a:hover{
+	filter:progid:DXImageTransform.Microsoft.Alpha(opacity=50);
+}

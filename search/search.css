@@ -1,0 +1,98 @@
+@import url(//fonts.googleapis.com/css?family=Glegoo);
+@import "../css/reset.css";
+@import "../css/skeleton.css";
+@import "../css/superfish.css";
+html, body {
+	height:auto;
+	
+}
+
+body {
+	min-width: 300px;
+	color:#937c7c;
+
+}
+#search-results{
+	padding:0px 10px 0px 5px;
+	overflow:hidden;
+		font: 12px/20px Arial, Helvetica, sans-serif;
+	color: #b5b5b5;
+
+}
+
+#search-results iframe html{
+	border:none;
+}
+#search-results iframe {
+	min-width:300px;
+}
+h3 {
+
+padding-top:10px;
+font-weight: normal;
+text-shadow: none;
+margin-top: 0 !important;
+text-transform: uppercase;
+}
+
+.search_link {
+	display: inline-block;padding-top: 4px;
+padding-left: 5px;
+font-size: 16px;
+	font-weight: normal !important;
+	line-height: 24px;	
+	font-family: 'Glegoo', serif;
+
+	text-shadow: none;
+	color: #84ced7;
+
+}
+
+.search_link:hover {
+	color: #333;
+}
+
+h4 {
+margin-left: 0px;	
+font-weight: normal;
+}
+
+
+ol.search_list {
+	list-style-type:none;
+	counter-reset: ol;
+	padding-left: 0;
+	margin-left: 15px;
+}
+ol.search_list li:before {
+content: counter(ol) ".";
+counter-increment: ol;
+float:left;
+display:block;
+width:20px;
+text-align:right;	
+padding-right:10px;
+margin:8px 0px 0 -40px
+}
+ol.search_list li {
+	padding-bottom:20px;
+	margin-left:15px;
+	background-color: #fff !important;
+}
+span.match {
+	color:#84ced7;
+	font-size:13px;
+	display:block;
+	
+	
+}
+span.search {
+	color:#84ced7;
+
+}
+.search_link{
+	text-decoration: none;
+}
+.search_link:hover{
+	text-decoration: underline;
+}

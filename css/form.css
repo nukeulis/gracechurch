@@ -1,0 +1,200 @@
+/****Form****/
+
+#form {
+	padding-top: 5px;
+
+}
+
+#form input {
+	color:#b5b5b5;
+	border: 1px solid #e7e7e7;
+ 	padding: 9px 13px 9px;
+  	background: #fff;
+	width: 100%;
+	height: 38px;
+	float:left;
+	font: 12px/20px Arial, Helvetica, sans-serif;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box; /*Firefox 1-3*/
+	-webkit-box-sizing: border-box; /* Safari */
+}
+
+#form textarea {
+	color:#b5b5b5;
+	border: 1px solid #e7e7e7;
+ 	padding: 5px 13px 8px;
+  	background: #fff;
+	width: 100%;
+	height: 272px;
+	position: relative;
+	resize:none;
+	overflow: hidden;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box; /*Firefox 1-3*/
+	-webkit-box-sizing: border-box; /* Safari */
+	float:left;
+	font: 12px/20px Arial, Helvetica, sans-serif;
+	margin: 0;
+	
+}
+#form label {
+	position:relative;
+	display: block;
+	min-height: 46px;
+	width: 336px;
+	float: left;
+}
+
+#form .email {
+	min-height: 44px;
+}
+
+
+
+
+#form .error, #form .empty {
+	color: #E02A05;
+	display: none;
+	font-size: 11px;
+	line-height:14px;
+	width:auto;
+	position: absolute;
+	z-index: 999;
+	right: 5px;
+	top: 9px;
+	float:left;
+}
+
+
+#form .error-empty {
+	display:none;
+	float:left;
+}
+
+.btns {
+	margin-bottom: 1px;
+	position:relative;
+	padding-top: 21px;
+	text-align: right;
+
+}
+
+
+
+
+
+.content .btns a.link1 {
+	margin: 0 !important;
+	cursor: pointer;
+	min-width: 1px;
+
+
+}
+
+.content .btns a.link1+a.link1 {
+	margin-left: 25px !important;
+}
+
+
+#form .message {
+	width: 100%;
+	position: relative;
+}
+
+
+
+.message br {
+	height: 0;
+	line-height: 0;
+}
+
+#form .success {
+	display: none;
+	position: absolute;
+	width: 336px;
+	border: 1px solid #e7e7e7;
+	background: #fff;
+	text-align: center;
+	padding: 20px 10px;
+	z-index: 999;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box; /*Firefox 1-3*/
+	-webkit-box-sizing: border-box; /* Safari */
+}
+
+
+.success_wrapper {
+	position: relative;	
+}
+
+@media only screen and (max-width: 995px) {
+
+#form {
+	padding-top: 0;	
+}
+
+
+#form label {
+	float: none !important;	
+	width: 100%;
+}
+
+#form input {
+	margin-bottom: 10px;
+}
+
+#form label.message {
+	width: 100% !important;
+}
+
+#form .success {
+	width: 100%;
+}
+
+.btns {
+	padding-right: 0;
+}
+
+#form label.email {
+	width: 100%;
+	margin: 0;
+}
+
+.map figure {
+	width: 450px !important;
+	float: left !important;
+	margin-right: 20px !important;
+}
+
+}
+
+@media only screen and (max-width: 767px) {
+  .map {
+	margin-bottom: 25px;
+}
+
+.map figure {
+	width: 100% !important;
+	float: none !important;
+	margin-right: 0px !important;
+}
+  .btns {
+		padding-bottom: 0;  
+  }
+  
+  #form textarea {
+		height: 300px !important; 
+ 	padding: 7px 20px 8px;
+  }
+
+   #form {
+ 	padding-right: 0;
+ }
+  
+}
+@media only screen and (max-width: 479px) {
+
+  #form textarea {
+		height: 200px !important;  
+  }
+}
