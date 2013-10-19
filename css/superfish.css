@@ -50,7 +50,7 @@ position: relative;
 	letter-spacing: -1px;
 	text-align: center;
 	font-size: 18px;
-	font-family: 'Glegoo', serif;
+	font-family: 'Karla', serif;
 	color: #1f1f1f;
 	position: relative;
 	text-transform: uppercase;
@@ -80,7 +80,7 @@ position: relative;
 
 
 .sf-menu>li.sfHover>a, .sf-menu>li.current>a, .sf-menu>li>a:hover {
-	color: #84ced7;
+	color: #25a2d4;
 }
 
 
@@ -114,7 +114,7 @@ position: relative;
 	left: 50%;
 	margin-left: -60px;
 	width: 120px;
-	background: #84ced7;
+	background: #25a2d4;
 	z-index: 999; 
 padding-top: 21px;
 padding-bottom: 19px;
@@ -197,7 +197,7 @@ border-color: transparent #404040 transparent transparent;
 
 }
 .sf-menu li.sfHover li.sfHover li a:hover {
-	color: #84ced7 !important;
+	color: #25a2d4 !important;
 }
 
 

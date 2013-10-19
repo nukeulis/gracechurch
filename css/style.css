@@ -47,7 +47,7 @@ p.p2 {
 
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'Glegoo', serif;
+	font-family: 'Karla', sans-serif;
 	color: #3c3c3c;
 	font-weight: normal;
 	text-transform: uppercase;
@@ -55,6 +55,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h2 {
+    font-family: 'Gilda Display', serif;
 	margin-bottom: 23px;
 	padding-right: 20px;
 	text-align: right;
@@ -65,6 +66,7 @@ h2 {
 }
 
 h2 span {
+	font-family: 'Karla', sans-serif;
 	padding-top: 21px;
 	font-size: 18px;
 	line-height: 20px;
@@ -131,11 +133,11 @@ ul.list1 li .count{
 	height: 51px;
 	margin-right: 20px;
 	margin-top: 1px;
-	background-color: #84ced7;
+	background-color: #25a2d4;
 	color: #fff;
 	text-align: center;
 	font-size: 35px;line-height: 49px;
-	font-family: 'Glegoo', serif;
+	font-family: 'Karla', sans-serif;
 }
 
 ul.list1 li +li {
@@ -153,19 +155,19 @@ a {
 }
 
 a:hover {
-	color: #84ced7;
+	color: #25a2d4;
 }
 
 a.link1  {
 	display: inline-block;
-	font: 16px/22px 'Glegoo', serif;
+	font: 16px/22px 'Karla', sans-serif;
 	color: #404040;
 	padding-right: 14px;
 	background: url(../images/link_arrow.png) right 10px no-repeat;
 }
 
 a.link1:hover {
-	color: #84ced7;
+	color: #25a2d4;
 }
 
 blockquote {
@@ -307,7 +309,7 @@ header h1 a img {
 #search  a:hover {
 	cursor: pointer;
 	color: #fff;
-	background-color: #84ced7;
+	background-color: #25a2d4;
 }
 
 #search input {
@@ -337,7 +339,7 @@ header h1 a img {
 	text-align: center;
 	line-height: 42px;
 	color: #fff;
-	background-color: #84ced7;	
+	background-color: #25a2d4;	
 	width: 40px;
 	height: 40px;
 	display: block;
@@ -364,7 +366,7 @@ header h1 a img {
 
 .page1_block .box {
 	overflow: hidden;
-	font: 16px/32px 'Glegoo', serif;
+	font: 16px/32px 'Karla', sans-serif;
 	color: #c3c3c3;
 		letter-spacing: -1px;
 
@@ -400,7 +402,7 @@ header h1 a img {
 	line-height: 122px;
 	text-align: center;
 	color: #fff;
-	background-color: #84ced7;
+	background-color: #25a2d4;
 }
 
 .icon:hover {
@@ -457,11 +459,11 @@ header h1 a img {
 .carousel1  time{
 	margin-bottom: 18px;
 
-	background-color: #84ced7;
+	background-color: #25a2d4;
 	display: block;
 	float: left;
 	padding: 9px 14px;
-	font: 25px/22px 'Glegoo', serif;
+	font: 25px/22px 'Karla', sans-serif;
 	text-transform: uppercase;
 	color: #fff;
 }
@@ -477,7 +479,7 @@ a.prev,a.next {
 	display: block;
 	width: 40px;
 	height: 40px;
-	background: url(../images/prevnext.png) 0 0 no-repeat #84ced7;
+	background: url(../images/prevnext.png) 0 0 no-repeat #25a2d4;
 }
 
 a.next {
@@ -495,7 +497,7 @@ a.prev1, a.next1 {
 	display: block;
 	width: 40px;
 	height: 40px;
-	background: url(../images/prevnext.png) 0 0 no-repeat #84ced7;
+	background: url(../images/prevnext.png) 0 0 no-repeat #25a2d4;
 }
 
 a.next1 {
@@ -508,13 +510,13 @@ a.prev1:hover,a.next1:hover {
 
 .text1 {
 	color: #404040;
-	font: 16px/22px 'Glegoo', serif;
+	font: 16px/22px 'Karla', sans-serif;
 	margin-bottom: 12px;
 }
 
 .quote_title {
 	color: #404040;
-	font: 16px/22px 'Glegoo', serif;
+	font: 16px/22px 'Karla', sans-serif;
 	margin-bottom: 14px;
 }
 
@@ -526,12 +528,12 @@ a.prev1:hover,a.next1:hover {
 
 .carousel2  li {
 	float: left;
-	font: 35px/45px 'Glegoo', serif;
+	font: 35px/45px 'Karla', sans-serif;
 	color: #404040;
 }
 
 .carousel2 li span {
-	color: #84ced7;
+	color: #25a2d4;
 	display: inline-block;
 	position: relative;top: 19px;
 	left: 15px;
@@ -549,7 +551,7 @@ a.prev1:hover,a.next1:hover {
 }
 
 .carousel2 a.link1:hover {
-	color: #84ced7;
+	color: #25a2d4;
 }
 
 .carousel2  li .box {
@@ -654,7 +656,7 @@ a.link1.lnk1 {
 	min-width: 29px;
 	text-align: center;
 	padding: 5px 9px 4px;
-	background-color: #84ced7;
+	background-color: #25a2d4;
 }
 
 .table1 a:hover {
@@ -664,8 +666,8 @@ a.link1.lnk1 {
 
 .table1 thead{
 	color: #fff;
-	font: 16px/22px 'Glegoo', serif;
-	background-color: #84ced7;
+	font: 16px/22px 'Karla', sans-serif;
+	background-color: #25a2d4;
 }
 
 .table1 thead td {
@@ -687,16 +689,16 @@ a.link1.lnk1 {
 }
 
 .various:hover span {
-	border: 20px solid #84CED7;
+	border: 20px solid #25a2d4;
 }
 
 .videolink {
-	font: 35px/40px 'Glegoo', serif;
+	font: 35px/40px 'Karla', sans-serif;
 	color: #fff;
 	display: block;
 	padding: 13px 62px 17px 19px;
 	letter-spacing: -1px;
-	background: url(../images/link_marker.png) right 22px no-repeat #84ced7;
+	background: url(../images/link_marker.png) right 22px no-repeat #25a2d4;
 
 }
 
@@ -730,16 +732,16 @@ a.link1.lnk1 {
 .times {
 	position: relative;
 	top: 1px;
-	background-color: #84ced7;
+	background-color: #25a2d4;
 	color: #fff;
 	margin-bottom: 4px;
 	padding: 25px 21px 26px;
-		font: 17px/23px 'Glegoo', serif;
+		font: 17px/23px 'Karla', sans-serif;
 
 }
 
 .t_title {
-	font: 35px/35px 'Glegoo', serif;
+	font: 35px/35px 'Karla', sans-serif;
 	margin-bottom: 10px;
 	text-transform: uppercase;
 
@@ -814,7 +816,7 @@ a.link-1 {
 }
 
 a.link-1:hover {
-	color: #84ced7;
+	color: #25a2d4;
 }
 
 
@@ -1015,7 +1017,7 @@ a.link1.lnk1 {
 }
 
 .socials {
-	background: #84CED7;
+	background: #25a2d4;
 	float: none;
 	overflow: hidden;
 	text-align: center;
