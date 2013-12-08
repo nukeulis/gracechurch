@@ -1,0 +1,10 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^gracechurchmd\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.gracechurchmd\.com$
+RewriteRule ^/?$ "http\:\/\/www\.gracechurchmd\.org" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^gracechurchmd\.net$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.gracechurchmd\.net$
+RewriteRule ^/?$ "http\:\/\/www\.gracechurchmd\.org" [R=301,L]
+

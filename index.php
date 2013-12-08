@@ -28,7 +28,7 @@
      <script>
 
      
-  $(document).ready(function(){
+  $(function(){
       jQuery('#camera_wrap').camera({
         loader: false,
         pagination: false ,
@@ -38,50 +38,37 @@
         navigation: true,
         fx: 'mosaic'
       });
-      
+      $().UItoTop({ easingType: 'easeOutQuart' });
+      var pathname = window.location.pathname;
+      pathname = pathname.substring(pathname.lastIndexOf('/') + 1);
+      $("nav ul li a[href='"+pathname+"']").parent().addClass('current');
     });
     
     
     $(window).load (
-    function(){$('.carousel1').carouFredSel({auto: false, prev: '.prev',next: '.next', width: 220, items: {
+    function(){$('.carousel1').carouFredSel({auto: false, prev: '.prev',next: '.next', width: 220, items:      {
       visible : {min: 1,
        max: 4
-},
-height: 'auto',
- width: 220,
-
+     },
+     height: 'auto',
+     width: 220,
     }, responsive: true, 
-    
     scroll: 1, 
-    
     mousewheel: false,
-    
     swipe: {onMouse: true, onTouch: true}});
-    
     } );  
     
-      
     $(window).load (
-    function(){$('.carousel2').carouFredSel({auto: false, prev: '.prev1',next: '.next1', width: 220, items: {
+    function(){$('.carousel2').carouFredSel({auto: false, prev: '.prev1',next: '.next1', width: 220,      items: {
       visible : {min: 1,
        max: 1
-},
-height: 'auto',
-
+     },
+     height: 'auto',
     }, responsive: true, 
-    
     scroll: 1, 
-    
     mousewheel: false,
-    
     swipe: {onMouse: true, onTouch: true}});
-    
     } );  
-    
-    
-    $(document).ready(function(){
-      $().UItoTop({ easingType: 'easeOutQuart' });
-    });   
     
      </script>
      <!--[if lt IE 8]>
@@ -97,8 +84,8 @@ height: 'auto',
 
 
     <![endif]-->
-     </head>
-     <body class="page1"><div class="main"> <header> 
+</head>
+<body class="page1"><div class="main"> <header> 
 
 <!--==============================header=================================-->
  <div class="container_12">
@@ -122,36 +109,14 @@ height: 'auto',
         </div>
       </div>
 
+<?php include("menu.html"); ?>
 
-<div class="menu_block">
-    <nav class="horizontal-nav full-width horizontalNav-notprocessed">
-        <ul class="sf-menu">
-            <li class="current"><a href="index.html">home</a></li>
-            <li><a href="about.html">About</a>
-            <ul>
-                <li><a href="#">Mission</a></li>
-                <li><a href="#">History</a>
-                <ul>
-                    <li><a href="#">Latest</a></li>
-                    <li><a href="#">Archive</a></li>
-                </ul>
-                </li>
-                <li><a href="#">Our Pastor</a></li>
-                <li><a href="#">Staff</a></li>
-            </ul>
-            </li>
-            <li><a href="ministries.html">events</a></li>
-            <li><a href="media.html">resources</a></li>
-            <li><a href="contact.html">Contact  </a></li>
-        </ul>
-    </nav>
-<div class="clear"></div>
+     <div class="clear"></div>
+    </div>
 </div>
 
+<!--=======flashy stuff================================-->
 
-<div class="clear"></div>
-</div>
-</div>
 <div class="container_12">
 <div class="slider_wrapper">
 <div class="grid_12">
@@ -304,72 +269,11 @@ height: 'auto',
   </div>
 </div>
 
-<!--==============================footer=================================-->
+
+
 </div>
-<footer>   
-  <div class="container_12">
-    <div class="grid_2">
-      <h4>about us</h4>
-      <ul>
-        <li><a href="#">Mission
-</a></li>
-        <li><a href="#">History</a></li>
-        <li><a href="#">Our Pastor</a></li>
-        <li><a href="#">Staff</a></li>
-      </ul>
-    </div>
-    <div class="grid_2">
-      <h4>ministries</h4>
-      <ul>
-        <li><a href="#">Auxiliaries</a></li>
-        <li><a href="#">Social Services</a></li>
-      </ul>
-    </div>
-    <div class="clear1"></div>
-    <div class="grid_2">
-      <h4>Articles</h4>
-      <ul>
-        <li><a href="#">Family</a></li>
-        <li><a href="#">Salvation</a></li>
-        <li><a href="#">Faith</a></li>
-        <li><a href="#">Bible</a></li>
-        <li><a href="#">Christ</a></li>
-      </ul>
-    </div>
-    <div class="grid_2">
-      <h4>events</h4>
-      <ul>
-        <li><a href="#">March</a></li>
-        <li><a href="#">April</a></li>
-        <li><a href="#">May</a></li>
-        <li><a href="#">June</a></li>
-      </ul>
-    </div>
-        <div class="clear1"></div>
+<!--==============================footer=================================-->
+<?php include("footer.html"); ?>
 
-    <div class="grid_2">
-      <h4>media</h4>
-      <ul>
-        <li><a href="#">Podcasts</a></li>
-        <li><a href="#">Worship</a></li>
-
-      </ul>
-    </div>
-    <div class="grid_2">
-      <h4>contacts</h4>
-      <ul>
-        <li><a href="#">Address</a></li>
-        <li><a href="#">Media inquiries</a></li>
-        <li><a href="#">Office</a></li>
-      </ul>
-    </div>
-      <div class="grid_12">
-      <div class="copy">  
-      Grace Church 
-     &copy; 2013 &nbsp;|&nbsp; <a href="index-5.html">Privacy Policy</a> <!--{%FOOTER_LINK} -->
-       </div>
-    </div>
-</div>  
-</footer>
 </body>
 </html>
