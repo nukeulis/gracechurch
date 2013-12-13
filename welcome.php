@@ -81,7 +81,7 @@
       </div>
       <div class="box bx1 tbox">
 	 <p>We're glad you're here</p>
-	 <p><strong>Grace Church</strong> is a new church of ordinary people who have been transformed by an extraordinary gospel - Jesus Christ died and was raised so that sinners would be reconciled to God. This is the good news we have a passion to proclaim, live, and share. We invite you to join us Sundays at 10:00 am at <strong>Cedar Grove Elementary School on Ridge Rd (Rt.27) between Clarksburg and Damascus</strong>.</p>
+	 <p><strong>Grace Church</strong> is a new church of ordinary people who have been transformed by an extraordinary gospel - Jesus Christ died and was raised so that sinners would be reconciled to God. This is the good news we have a passion to proclaim, live, and share. We invite you to join us Sundays at 10:00 am at <a href="contact.php">Cedar Grove Elementary School</a> on Ridge Rd (Rt.27) between Clarksburg and Damascus.</p>
 
 	 <p>Some things to know if you plan to visit us on a Sunday. First, we'd love to have you visit.</p>
 	 <p class="no-bottom-margin">Here are some other things you'll want to know:</p>

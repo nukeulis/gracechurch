@@ -25,7 +25,7 @@
      <!--<![endif]-->
     <script src="js/jquery.carouFredSel-6.1.0-packed.js"></script>
      <script  src="js/jquery.touchSwipe.min.js"></script>
-     <script>
+     <script type="text/javascript">
 
      
   $(function(){
@@ -42,33 +42,7 @@
       
       $("nav ul li a[href='index.php']").parent().addClass('current');
     });
-    
-    
-    $(window).load (
-    function(){$('.carousel1').carouFredSel({auto: false, prev: '.prev',next: '.next', width: 220, items:      {
-      visible : {min: 1,
-       max: 4
-     },
-     height: 'auto',
-     width: 220,
-    }, responsive: true, 
-    scroll: 1, 
-    mousewheel: false,
-    swipe: {onMouse: true, onTouch: true}});
-    } );  
-    
-    $(window).load (
-    function(){$('.carousel2').carouFredSel({auto: false, prev: '.prev1',next: '.next1', width: 220,      items: {
-      visible : {min: 1,
-       max: 1
-     },
-     height: 'auto',
-    }, responsive: true, 
-    scroll: 1, 
-    mousewheel: false,
-    swipe: {onMouse: true, onTouch: true}});
-    } );  
-    
+        
      </script>
      <!--[if lt IE 8]>
        <div style=' clear: both; text-align:center; position: relative;'>
@@ -153,14 +127,14 @@
   <div class="container_12">
     <div class="grid_6">
       <div class="box maxheight">
-        <a href="#" class="icon"><i class="icon-map-marker"></i></a>
+        <a href="contact.php" class="icon"><i class="icon-map-marker"></i></a>
         <div class="p1_title">Meeting Location</div>
         Directions to Clarksburg Middle School
       </div>
     </div>
     <div class="grid_6">
       <div class="box maxheight">
-        <a href="#" class="icon">
+        <a href="welcome.php" class="icon">
           <i class="icon-user"></i>
         </a>
         <div class="p1_title">I'm New Here</div>What Grace Church is all about
@@ -169,7 +143,7 @@
     <div class="clear"></div>
     <div class="grid_6">
       <div class="box maxheight">
-        <a href="#" class="icon">
+        <a href="media.html" class="icon">
           <i class="icon-microphone"></i>
         </a>
         <div class="p1_title">Listen</div>Recent Messages at Grace Church
@@ -177,102 +151,19 @@
     </div>
     <div class="grid_6">
       <div class="box maxheight">
-        <a href="#" class="icon">
+        <a href="contact.php" class="icon">
           <i class="icon-envelope"></i>
         </a>
-        <div class="p1_title">Questions</div>Praesent vestibulum
+        <div class="p1_title">Questions</div>Contact Us
       </div>
     </div>
   </div>
 </div>
-<!--=======content================================-->
- <div class="content page1">
-   <div class="container_12">
-    <div class="grid_12">
-      <div class="box head">
-       <a href="#" class="next"></a> <a href="#" class="prev"></a>
-        <h3>upcoming events</h3>
-      </div>
-      <div class="car_div">
-        <ul class="carousel1">
-          <li>
-            <div class="box maxheight1">
-              <img src="images/page1_img1.jpg" alt="">
-              <div class="pad1">
-              <time datetime="2013-01-01">04/18</time>
-              <div class="text1">Aenean nonummy hendrerit</div>Phasellus porta. Fusce suscipit varius mi. Cum sociis natoque penatibus et magnis  parturient montes, nascetur ridiculus.
-              </div>
-            </div>
-            <a href="#" class="link1">more</a>
-          </li>
-          <li>
-            <div class="box maxheight1">
-              <img src="images/page1_img2.jpg" alt="">
-              <div class="pad1">
-              <time datetime="2013-01-01">04/18</time>
-              <div class="text1">Aenean nonummy hendrerit</div>Phasellus porta. Fusce suscipit varius mi. Cum sociis natoque penatibus et magnis  parturient montes, nascetur ridiculus.
-            </div>
-            </div>
-            <a href="#" class="link1">more</a>
-          </li>
-          <li>
-            <div class="box maxheight1">
-              <img src="images/page1_img3.jpg" alt="">
-              <div class="pad1">
-              <time datetime="2013-01-01">04/18</time>
-              <div class="text1">Aenean nonummy hendrerit</div>Phasellus porta. Fusce suscipit varius mi. Cum sociis natoque penatibus et magnis  parturient montes, nascetur ridiculus.
-            </div>
-            </div>
-            <a href="#" class="link1">more</a>
-          </li>
-          <li>
-            <div class="box maxheight1">
-              <img src="images/page1_img4.jpg" alt=""> <div class="pad1">
-              <time datetime="2013-01-01">04/18</time>
-             
-              <div class="text1">Aenean nonummy hendrerit</div>Phasellus porta. Fusce suscipit varius mi. Cum sociis natoque penatibus et magnis  parturient montes, nascetur ridiculus.
-              </div>
-            </div>
-            <a href="#" class="link1">more</a>
-          </li>
-           <li>
-            <div class="box maxheight1">
-              <img src="images/page1_img2.jpg" alt="">
-              <div class="pad1">
-              <time datetime="2013-01-01">04/18</time>
-              <div class="text1">Aenean nonummy hendrerit</div>Phasellus porta. Fusce suscipit varius mi. Cum sociis natoque penatibus et magnis  parturient montes, nascetur ridiculus.
-            </div>
-            </div>
-            <a href="#" class="link1">more</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-    <div class="grid_12"> <a href="#" class="next1"></a><a href="#" class="prev1"></a>
-      <div class="quote_title">
-        Testimonials
-      </div>
-     
-      <ul class="carousel2">
-        <li>
-          <div class="box">„ Praesent vestibulustie lacus. Aenean nonummy hendrerit mauris...<span>John Priston, California</span><a href="#" class="link1">read full story</a><div class="clear"></div></div>
-        </li>
-        <li>
-          <div class="box">„ Praesent vestibulustie lacus. Aenean nonummy hendrerit mauris...<span>Bradley Grosh, New Jersey</span><a href="#" class="link1">read full story</a><div class="clear"></div></div>
-        </li>
-        <li>
-          <div class="box">„ Praesent vestibulustie lacus. Aenean nonummy hendrerit mauris...<span>Alex Smith, Oklahoma</span><a href="#" class="link1">read full story</a><div class="clear"></div></div>
-        </li>
-      </ul>
-    </div>
-  </div>
-</div>
-
 
 
 </div>
 <!--==============================footer=================================-->
-<?php include("footer.html"); ?>
+<?php //include("footer.html"); ?>
 
 </body>
 </html>
