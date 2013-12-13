@@ -44,6 +44,10 @@ p.p2 {
 	margin-bottom: 14px;
 }
 
+p.no-bottom-margin {
+    margin-bottom: 10px;
+}
+
 
 
 h1, h2, h3, h4, h5, h6 {
@@ -92,11 +96,6 @@ h4 {
 img {
 	max-width: 100%;
 }
-ul {
-	padding: 0;
-	margin: 0;
-	list-style: none;
-}
 
 ul.list {
 	float: left;
@@ -115,6 +114,12 @@ ul.list  li{
 
 ul.list li+li {
 	margin-top: 10px;
+}
+
+ul.bullet-list {
+    list-style: disc outside none;
+    text-indent: 5px;
+    margin-left: 25px;
 }
 
 .col1 {

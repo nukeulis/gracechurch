@@ -38,55 +38,59 @@
 
     <![endif]-->
      </head>
-     <body class=""><div class="main"> <header> 
-
+<body class="">
+    <div class="main">
 <!--==============================header=================================-->
- <div class="container_12">
-  <div class="grid_12">
-   <h1>
-        <a href="index.html">
-          <img src="images/logo-2x.png" alt="Grace Church">
-        </a>
-      </h1>
-      <div class="head_top">
-       
-         <form id="search" action="search.php" method="GET">
-                      <input type="text" name="s">                           
-            <a onClick="document.getElementById('search').submit()" class="btn"><i class="icon-search"></i></a>
-                     <div class="clear"></div>
-         </form> <div class="socials">
-          <a href="#"><i class="icon-twitter"></i></a>
-          <a href="#"><i class="icon-facebook"></i> </a>
-          <a href="#"><i class="icon-google-plus"></i></a>
-          <a href="#"><i class="icon-camera-retro"></i></a>
+
+        <header>
+             <div class="container_12">
+                <div class="grid_12">
+                    <h1>
+                        <a href="index.php">
+                            <img src="images/logo-2x.png" alt="Grace Church">
+                        </a>
+                    </h1>
+                    <div class="head_top">
+
+                        <form id="search" action="search.php" method="GET">
+                            <input type="text" name="s">
+                            <a onclick="document.getElementById('search').submit()" class="btn"><i class="icon-search"></i></a>
+                            <div class="clear"></div>
+                        </form>
+                        <div class="socials">
+                            <a href="#"><i class="icon-twitter"></i></a>
+                            <a href="#"><i class="icon-facebook"></i></a>
+                            <a href="#"><i class="icon-google-plus"></i></a>
+                            <a href="#"><i class="icon-camera-retro"></i></a>
+                        </div>
+                    </div>
+
+
+                    <?php include("menu.html"); ?>
+
+                    <div class="clear"></div>
+                </div>
+            </div>
+        </header>
+
+    <!--=======content================================-->
+    <div class="content">
+        <div class="container_12">
+            <div class="grid_12">
+                <div class="box head">
+                    <h3>Search result:</h3>
+                </div>
+                <div class="box bx1">
+                    <div id="search-results"></div>
+                </div>
+            </div>
         </div>
-      </div>
-  
-
-<?php include("menu.html"); ?>
-
-     <div class="clear"></div>
     </div>
-</div>
-</header>
-
-<!--=======content================================-->
- <div class="content">
-   <div class="container_12">
-    <div class="grid_12">
-      <div class="box head">
-        <h3>Search result:</h3>
-      </div>
-      <div class="box bx1">
-			   <div id="search-results"></div></div>
-       </div>
-    </div>
-</div>
 
 
 </div>
 <!--==============================footer=================================-->
-<?php include("footer.html"); ?>
+<?php //include("footer.html"); ?>
 
 </body>
 </html>

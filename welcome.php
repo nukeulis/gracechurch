@@ -6,6 +6,8 @@
      <meta name = "format-detection" content = "telephone=no" />
      <link rel="icon" href="images/favicon.ico">
      <link rel="shortcut icon" href="images/favicon.ico" />
+     <link href='http://fonts.googleapis.com/css?family=Karla' rel='stylesheet' type='text/css'>
+     <link href='http://fonts.googleapis.com/css?family=Gilda+Display' rel='stylesheet' type='text/css'>
      <link rel="stylesheet" href="css/style.css">
      <link rel="stylesheet" href="css/font-awesome.css">
      <script src="js/jquery.js"></script>
@@ -46,7 +48,7 @@
  <div class="container_12">
   <div class="grid_12">
    <h1>
-        <a href="index.html">
+        <a href="index.php">
           <img src="images/logo-2x.png" alt="Grace Church">
         </a>
       </h1>
@@ -80,10 +82,10 @@
       <div class="box bx1 tbox">
 	 <p>We're glad you're here</p>
 	 <p><strong>Grace Church</strong> is a new church of ordinary people who have been transformed by an extraordinary gospel - Jesus Christ died and was raised so that sinners would be reconciled to God. This is the good news we have a passion to proclaim, live, and share. We invite you to join us Sundays at 10:00 am at <strong>Cedar Grove Elementary School on Ridge Rd (Rt.27) between Clarksburg and Damascus</strong>.</p>
-	 <p>Some things to know if you plan to visit us on a Sunday. First, we'd love to have you visit.</p>
-	 <p>Here are some other things you'll want to know:</p>
 
-	<ul class="list">
+	 <p>Some things to know if you plan to visit us on a Sunday. First, we'd love to have you visit.</p>
+	 <p class="no-bottom-margin">Here are some other things you'll want to know:</p>
+	<ul class="bullet-list">
 		<li>Our Welcome Table at the front door is staffed by helpful people who can answer your questions.</li>
 		<li><strong>Grace Church</strong> meets in an accessible facility</li>
 		<li>However, if you require wheelchair access, designated parking or seating, directions to our accessible restrooms, or additional assistance, please don't hesitate to ask us.</li>
@@ -100,7 +102,7 @@
 
 </div>
 <!--==============================footer=================================-->
-<?php include("footer.html"); ?>
+<?php //include("footer.html"); ?>
 
 </body>
 </html>

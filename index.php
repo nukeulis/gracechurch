@@ -1,7 +1,7 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
      <head>
-     <title>Main page</title>
+     <title>Grace Church of Clarksburg: Clarksburg, MD</title>
      <meta charset="utf-8">
      <meta name = "format-detection" content = "telephone=no" />
      <link rel="icon" href="images/favicon.ico">
@@ -39,9 +39,8 @@
         fx: 'mosaic'
       });
       $().UItoTop({ easingType: 'easeOutQuart' });
-      var pathname = window.location.pathname;
-      pathname = pathname.substring(pathname.lastIndexOf('/') + 1);
-      $("nav ul li a[href='"+pathname+"']").parent().addClass('current');
+      
+      $("nav ul li a[href='index.php']").parent().addClass('current');
     });
     
     
@@ -91,7 +90,7 @@
  <div class="container_12">
   <div class="grid_12">
    <h1>
-        <a href="index.html">
+        <a href="index.php">
           <img src="images/logo-2x.png">
         </a>
       </h1>
