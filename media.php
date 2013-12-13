@@ -87,7 +87,7 @@
             <div class="container_12">
                 <div class="grid_8">
                     <div class="box head">
-                        <h3>Modern Church Music </h3>
+                        <h3>Sermons</h3>
                     </div>
                     <div class="box bx1 tbox">
                         <table class="table1">
@@ -192,13 +192,13 @@
                         <a href="http://www.youtube.com/embed/2kodXWejuy0?rel=0" class="various iframe img-bot">
                             <img src="images/page4_img1.jpg" alt=""><span></span>
                         </a>
-                        <a href="#" class="videolink">Lorep pa en</a>
+                        <a href="#" class="videolink">Books</a>
                     </div>
                     <div class="video">
                         <a href="http://www.youtube.com/embed/2kodXWejuy0?rel=0" class="various iframe img-bot">
                             <img src="images/page4_img2.jpg" alt=""><span></span>
                         </a>
-                        <a href="#" class="videolink">Dolor pater</a>
+                        <a href="#" class="videolink">Music</a>
                     </div>
                     <div class="times">
                         <div class="t_title">
