@@ -102,6 +102,7 @@
                                 </tr>
                             </thead>
                             <tbody>
+                                <!--
                                 <tr>
                                     <td>Answering God's Call, What Am I Going To Do Now? part 4</td>
                                     <td>Bradley Grosh</td>
@@ -182,6 +183,7 @@
                                     <td><a href="#">listen</a></td>
                                     <td><a href="#">Watch</a></td>
                                 </tr>
+                                -->
                             </tbody>
                         </table>
                     </div>
@@ -189,27 +191,16 @@
                 </div>
                 <div class="grid_4">
                     <div class="video">
-                        <a href="http://www.youtube.com/embed/2kodXWejuy0?rel=0" class="various iframe img-bot">
+                        <a href="#" class="various iframe img-bot">
                             <img src="images/page4_img1.jpg" alt=""><span></span>
                         </a>
                         <a href="#" class="videolink">Books</a>
                     </div>
                     <div class="video">
-                        <a href="http://www.youtube.com/embed/2kodXWejuy0?rel=0" class="various iframe img-bot">
+                        <a href="$" class="various iframe img-bot">
                             <img src="images/page4_img2.jpg" alt=""><span></span>
                         </a>
                         <a href="#" class="videolink">Music</a>
-                    </div>
-                    <div class="times">
-                        <div class="t_title">
-                            Service <br>
-                            Times
-                        </div>
-                        <p>6PM <span>| Saturday</span><br>9AM &amp; 10:45AM <span>| Sunday</span></p>
-                        <p>
-                            8901 Marmora Road,<br>
-                            Glasgow, D04 89GR.
-                        </p>
                     </div>
                 </div>
             </div>
