@@ -36,11 +36,12 @@
         height: '49.30232558139535%',
         caption: false,
         navigation: true,
-        fx: 'mosaic'
+        fx: 'mosaic',
+        cols: 4
       });
       $().UItoTop({ easingType: 'easeOutQuart' });
       
-      $("nav ul li a[href='index.php']").parent().addClass('current');
+      $("nav ul li a[href='index.php']").parent().addClass('current'); // need to set this manually because sometimes the URL is '/' because default page
     });
         
      </script>
@@ -54,115 +55,109 @@
     <!--[if lt IE 9]>
       <script src="js/html5shiv.js"></script>
       <link rel="stylesheet" media="screen" href="css/ie.css">
-
-
     <![endif]-->
 </head>
-<body class="page1"><div class="main"> <header> 
+<body class="page1">
+    <div class="main">
+        <header>
 
-<!--==============================header=================================-->
- <div class="container_12">
-  <div class="grid_12">
-   <h1>
-        <a href="index.php">
-          <img src="images/logo-2x.png">
-        </a>
-      </h1>
-      <div class="head_top">
-       
-         <form id="search" action="search.php" method="GET">
-                      <input type="text" name="s">                           
-            <a onClick="document.getElementById('search').submit()" class="btn"><i class="icon-search"></i></a>
-                     <div class="clear"></div>
-         </form> <div class="socials">
-          <a href="#"><i class="icon-twitter"></i></a>
-          <a href="#"><i class="icon-facebook"></i> </a>
-          <!--<a href="#"><i class="icon-google-plus"></i></a>
-          <a href="#"><i class="icon-camera-retro"></i></a>-->
+            <!--==============================header=================================-->
+            <div class="container_12">
+                <div class="grid_12">
+                    <h1>
+                        <a href="index.php"><img src="images/logo-2x.png"></a>
+                    </h1>
+                    <div class="head_top">
+                        <form id="search" action="search.php" method="GET">
+                            <input type="text" name="s">
+                            <a onclick="$('#search').submit()" class="btn"><i class="icon-search"></i></a>
+                            <div class="clear"></div>
+                        </form>
+                        <div class="socials">
+                            <a href="#"><i class="icon-twitter"></i></a>
+                            <a href="#"><i class="icon-facebook"></i></a>
+                            <!--<a href="#"><i class="icon-google-plus"></i></a>
+                            <a href="#"><i class="icon-camera-retro"></i></a>-->
+                        </div>
+                    </div>
+
+                    <?php include("menu.html"); ?>
+
+                    <div class="clear"></div>
+                </div>
+            </div>
+        </header>
+
+        <!--=======flashy stuff================================-->
+
+        <div class="container_12">
+            <div class="slider_wrapper">
+                <div class="grid_12 alpha omega">
+
+                        <div id="camera_wrap" class="">
+                            <div data-src="images/slide.jpg" data-thumb="images/thumb.jpg">
+                                <div class="caption fadeIn">
+                                    <h2>love<span>Love God, love people, love life</span></h2>
+                                </div>
+                            </div>
+                            <div data-src="images/slide1.jpg" data-thumb="images/thumb1.jpg">
+                                <div class="caption fadeIn">
+                                    <h2>hope<span>Here hope triumphs over sorrow
+                                    </span></h2>
+                                </div>
+                            </div>
+                            <div data-src="images/slide2.jpg" data-thumb="images/thumb2.jpg">
+                                <div class="caption fadeIn">
+                                    <h2>faith<span>Dive deeper into the faith!</span></h2>
+                                </div>
+                            </div>
+                            <div data-src="images/slide3.jpg" data-thumb="images/thumb3.jpg">
+                                <div class="caption fadeIn">
+                                    <h2>grace<span>Living in God’s amazing grace</span></h2>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+            <div class="camera_thumbs_cont"></div>
         </div>
-      </div>
 
-<?php include("menu.html"); ?>
-
-     <div class="clear"></div>
-    </div>
-</div>
-
-<!--=======flashy stuff================================-->
-
-<div class="container_12">
-<div class="slider_wrapper">
-<div class="grid_12">
-  <div class="grid_11 prefix_1 alpha omega">
-     
-      <div id="camera_wrap" class="">
-        <div data-src="images/slide.jpg" data-thumb="images/thumb.jpg">
-          <div class="caption fadeIn">
-            <h2>love<span>Love God, love people, love life</span></h2>
-          </div>
+        <div class="page1_block">
+            <div class="container_12">
+                <div class="grid_6">
+                    <div class="box maxheight">
+                        <a href="contact.php" class="icon"><i class="icon-map-marker"></i></a>
+                        <div class="p1_title">Meeting Location</div>
+                        Directions to Clarksburg Middle School
+                    </div>
+                </div>
+                <div class="grid_6">
+                    <div class="box maxheight">
+                        <a href="welcome.php" class="icon"><i class="icon-user"></i></a>
+                        <div class="p1_title">I'm New Here</div>
+                        What Grace Church is all about
+                    </div>
+                </div>
+                <div class="clear"></div>
+                <div class="grid_6">
+                    <div class="box maxheight">
+                        <a href="media.php" class="icon"><i class="icon-microphone"></i></a>
+                        <div class="p1_title">Listen</div>
+                        Recent Messages at Grace Church
+                    </div>
+                </div>
+                <div class="grid_6">
+                    <div class="box maxheight">
+                        <a href="contact.php" class="icon"><i class="icon-envelope"></i></a>
+                        <div class="p1_title">Questions</div>
+                        Contact Us
+                    </div>
+                </div>
+            </div>
         </div>
-        <div data-src="images/slide1.jpg" data-thumb="images/thumb1.jpg">
-           <div class="caption fadeIn">
-             <h2>hope<span>Here hope triumphs over sorrow
- </span></h2>
-           </div>
-        </div>
-        <div data-src="images/slide2.jpg" data-thumb="images/thumb2.jpg">
-          <div class="caption fadeIn">
-            <h2>faith<span>Dive deeper into the faith!</span></h2>
-          </div>
-        </div>
-        <div data-src="images/slide3.jpg" data-thumb="images/thumb3.jpg">
-          <div class="caption fadeIn">
-            <h2>grace<span>Living in God’s amazing grace</span></h2>
-          </div>
-        </div>
-      </div></div>
-      </div>
-  </div>
-</div>
 
-</header>
-<div class="page1_block">
-  <div class="container_12">
-    <div class="grid_6">
-      <div class="box maxheight">
-        <a href="contact.php" class="icon"><i class="icon-map-marker"></i></a>
-        <div class="p1_title">Meeting Location</div>
-        Directions to Clarksburg Middle School
-      </div>
     </div>
-    <div class="grid_6">
-      <div class="box maxheight">
-        <a href="welcome.php" class="icon">
-          <i class="icon-user"></i>
-        </a>
-        <div class="p1_title">I'm New Here</div>What Grace Church is all about
-      </div>
-    </div>
-    <div class="clear"></div>
-    <div class="grid_6">
-      <div class="box maxheight">
-        <a href="media.html" class="icon">
-          <i class="icon-microphone"></i>
-        </a>
-        <div class="p1_title">Listen</div>Recent Messages at Grace Church
-      </div>
-    </div>
-    <div class="grid_6">
-      <div class="box maxheight">
-        <a href="contact.php" class="icon">
-          <i class="icon-envelope"></i>
-        </a>
-        <div class="p1_title">Questions</div>Contact Us
-      </div>
-    </div>
-  </div>
-</div>
-
-
-</div>
-<!--==============================footer=================================-->
+    <!--==============================footer=================================-->
 <?php //include("footer.html"); ?>
 
 </body>

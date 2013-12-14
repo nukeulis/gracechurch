@@ -168,13 +168,15 @@
 	}
 		
 	if(opts.thumbnails==true){
+        /* njt : adding this manually to index.php
 		wrap.append(
 			'<div class="camera_thumbs_cont" />'
-			);
+			);*/
 	}
 	
 	if(opts.thumbnails==true && opts.pagination!=true){
-		$('.camera_thumbs_cont',wrap).wrap(
+	    //$('.camera_thumbs_cont',wrap).wrap(
+	    $('.camera_thumbs_cont').wrap(
 			'<div />'
 			).wrap(
 				'<div class="camera_thumbs" />'
@@ -210,7 +212,7 @@
 		nextNav = $('.camera_next',wrap),
 		commands = $('.camera_commands',wrap),
 		pagination = $('.camera_pag',wrap),
-		thumbs = $('.camera_thumbs_cont',wrap);	
+		thumbs = $('.camera_thumbs_cont'/*,wrap*/);	
 
 	
 	var w,
@@ -946,21 +948,21 @@
 						ulLeft = offDiv-offUl;
 					}
 					
-					
-					
+				/*
 				if(firstPos == true) {
 					$('ul', thumbs).width($('ul > li', thumbs).length * $('ul > li', thumbs).outerWidth());
 					if($(thumbs).length && !$(pagination).lenght) {
 						wrap.css({marginBottom:$(thumbs).outerHeight()});
 					}
 					thumbnailVisible();
-					/*I repeat this two lines because of a problem with iPhones*/
+					//I repeat this two lines because of a problem with iPhones
 					$('ul', thumbs).width($('ul > li', thumbs).length * $('ul > li', thumbs).outerWidth());
 					if($(thumbs).length && !$(pagination).lenght) {
 						wrap.css({marginBottom:$(thumbs).outerHeight()});
 					}
-					/*...*/
+                    
 				}
+                */
 				firstPos = false;
 				
 					var left = $('li.cameracurrent', thumbs).length ? pos.left : '',
@@ -2218,7 +2220,7 @@
 		pieID = 'pie_'+wrap.index();
 	elem.addClass('stopped');
 	if($('.camera_showcommands').length) {
-		var camera_thumbs_wrap = $('.camera_thumbs_wrap',wrap);
+		var camera_thumbs_wrap = $('.camera_thumbs_wrap'/*,wrap*/);
 	} else {
 		var camera_thumbs_wrap = wrap;
 	}
