@@ -49,9 +49,9 @@
 		
 		$sel_text=$.trim(getText($item));
 		$sel_text = $sel_text.replace('»', '');
-		if ($item.parent('ul ul').length) $sel_text = ' – ' + $sel_text;
-		if ($item.parent('ul ul ul').length) $sel_text = '– ' + $sel_text;
-		if ($item.parent('ul ul ul ul').length) $sel_text = '– ' + $sel_text;
+		if ($item.parent('ul ul').length) $sel_text = ' - ' + $sel_text;
+		if ($item.parent('ul ul ul').length) $sel_text = '- ' + $sel_text;
+		if ($item.parent('ul ul ul ul').length) $sel_text = '- ' + $sel_text;
 
 		if(!text){$('<option value="'+$item.find('a:first').attr('href')+'" ' + $selected + ' ' + $disabled + '>' + $sel_text +'</option>').appendTo($container);}
 		else {$('<option value="'+$item.find('a:first').attr('href')+'" ' + $selected + ' ' + $disabled + '>'+text+'</option>').appendTo($container);}

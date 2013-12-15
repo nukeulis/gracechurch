@@ -1,31 +1,31 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
-     <head>
-     <title>Grace Church of Clarksburg: Clarksburg, MD</title>
-     <meta charset="utf-8">
-     <meta name = "format-detection" content = "telephone=no" />
-     <link rel="icon" href="images/favicon.ico">
-     <link rel="shortcut icon" href="images/favicon.ico" />
-     <link href='http://fonts.googleapis.com/css?family=Karla' rel='stylesheet' type='text/css'>
-     <link href='http://fonts.googleapis.com/css?family=Gilda+Display' rel='stylesheet' type='text/css'>
-     <link rel="stylesheet" href="css/style.css">
-     <link rel="stylesheet" href="css/font-awesome.css">
-     <link rel="stylesheet" href="css/camera.css">
-     <script src="js/jquery.js"></script>
-     <script src="js/jquery-migrate-1.1.1.js"></script>
-     <script src="js/script.js"></script> 
-     <script src="js/superfish.js"></script>
-     <script src="js/jquery.ui.totop.js"></script>
-     <script src="js/jquery.equalheights.js"></script>
-     <script src="js/jquery.mobilemenu.js"></script>
-     <script src="js/jquery.easing.1.3.js"></script>
-     <script src="js/camera.js"></script>
-     <!--[if (gt IE 9)|!(IE)]><!-->
-     <script src="js/jquery.mobile.customized.min.js"></script>
-     <!--<![endif]-->
+<head>
+    <title>Grace Church of Clarksburg: Clarksburg, MD</title>
+    <meta charset="utf-8">
+    <meta name="format-detection" content="telephone=no" />
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="shortcut icon" href="images/favicon.ico" />
+    <link href='http://fonts.googleapis.com/css?family=Karla' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Gilda+Display' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/camera.css">
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery-migrate-1.1.1.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/superfish.js"></script>
+    <script src="js/jquery.ui.totop.js"></script>
+    <script src="js/jquery.equalheights.js"></script>
+    <script src="js/jquery.mobilemenu.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/camera.js"></script>
+    <!--[if (gt IE 9)|!(IE)]><!-->
+    <script src="js/jquery.mobile.customized.min.js"></script>
+    <!--<![endif]-->
     <script src="js/jquery.carouFredSel-6.1.0-packed.js"></script>
-     <script  src="js/jquery.touchSwipe.min.js"></script>
-     <script type="text/javascript">
+    <script src="js/jquery.touchSwipe.min.js"></script>
+    <script type="text/javascript">
 
      
   $(function(){
@@ -39,13 +39,14 @@
         fx: 'mosaic',
         cols: 4
       });
+
       $().UItoTop({ easingType: 'easeOutQuart' });
       
       $("nav ul li a[href='index.php']").parent().addClass('current'); // need to set this manually because sometimes the URL is '/' because default page
     });
         
-     </script>
-     <!--[if lt IE 8]>
+    </script>
+    <!--[if lt IE 8]>
        <div style=' clear: both; text-align:center; position: relative;'>
          <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
            <img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." />
@@ -88,8 +89,9 @@
             </div>
         </header>
 
-        <!--=======flashy stuff================================-->
+    <div class="content">
 
+        <!--=======flashy stuff================================-->
         <div class="container_12">
             <div class="slider_wrapper">
                 <div class="grid_12 alpha omega">
@@ -155,10 +157,10 @@
                 </div>
             </div>
         </div>
-
     </div>
+</div>
     <!--==============================footer=================================-->
-<?php //include("footer.html"); ?>
+    <?php //include("footer.html"); ?>
 
 </body>
 </html>
