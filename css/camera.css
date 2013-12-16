@@ -13,7 +13,8 @@
 	position: relative;
 	z-index: 0;
 	height: 457px;
-
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .camera_target_content {
