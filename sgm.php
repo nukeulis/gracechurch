@@ -73,31 +73,37 @@
 </header>
 
 <!--=======content================================-->
-    <div class="content">
+<div class="content">
         <div class="container_12">
             <div class="grid_12">
                 <div class="box head">
-                    <h3>Welcome</h3>
+                    <h3>Sovereign Grace Churches</h3>
                 </div>
                 <div class="box bx1 tbox">
-                    <p class="text1">We're glad you're here</p>
-                    <p><strong>Grace Church</strong> is a new church of ordinary people who have been transformed by an extraordinary gospel - Jesus Christ died and was raised so that sinners would be reconciled to God. This is the good news we have a passion to proclaim, live, and share. We invite you to join us Sundays at 10:00 am at <a href="contact.php" class="link-1">Cedar Grove Elementary School</a> on Ridge Rd (Rt.27) between Clarksburg and Damascus.</p>
+                    <p><strong>Grace Church</strong> of Clarksburg is privileged to be associated with and a part of <a href="http://www.sovereigngraceministries.org/" class="link-1">Sovereign Grace Churches</a>, a family of more than 80 local Christian churches in the U.S. and across the world</p>
 
-                    <p class="text1">Sunday Meetings</p>
-                    <p>Every Sunday we seek to remember and celebrate what is of first importance: Jesus, the Son of God, has come in the flesh to live a perfect life on our behalf, die a substitutionary death, and rise from the dead, so that we might be forgiven and reconciled to God. This gospel, or good news, is what we remind ourselves of as we sing, pray, read Scripture, give, hear God's Word preached, participate in the sacraments, and fellowship together.</p>
-                    <p>Our Welcome Table at the front door is staffed by helpful people who can answer your questions.</p>
+                    <p>With other Sovereign Grace churches we share:</p>
 
-                    <p class="text1">Children's Ministry</p>
-                    <p>Our children's ministry provides care and instruction for 1-year-olds through fifth graders. Check out our <a href="gracekids.php" class="link-1">Grace Kids</a> for information on what the children's ministry looks like and how it works.</p>
-                    <p>During the meeting we provide a room with a video feed for moms with infants.</p>
+                    <ul class="bullet-list">
+                      <li>A passion to see the gospel of Jesus Christ affect our lives and proclaimed to the world</li>
+                      <li>A vision to establish, equip, and develop local churches</li>
+                      <li>A commitment to a theology that is essentially reformed and continuationist</li>
+                      <li>A desire to glorify God in our public and private lives </li>
+                      <li>A vision to establish, equip, and develop local churches</li>
+                    </ul>
 
-                    <p class="text1">Accessibility</p>
-                    <p>Grace Church meets in an accessible facility.  However, if you require wheelchair access, designated parking or seating, directions to our accessible restrooms, or additional assistance, please don't hesitate to ask us.</p>
+                    <p>As part of its commitment to equip and develop local churches, Sovereign Grace Churches:</p>
+                    <ul class="bullet-list">
+                      <li>Produces resources (books, teaching, music)</li>
+                      <li>Hosts conferences (Pastors, WorshipGod, The Clash, etc.)</li>
+                      <li>Trains leaders in its Pastors College</li>
+                    </ul>
 
+                    <p>You can learn more about Sovereign Grace Churches on their <a href="http://www.sovereigngraceministries.org/" class="link-1">website</a></p>
                 </div>
             </div>
         </div>
-    </div>
+</div>
 
 
 </div>

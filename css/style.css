@@ -17,7 +17,7 @@ a[href^="tel:"] {
 }
 body {
 	font: 12px/20px Arial, Helvetica, sans-serif;
-	color: #b5b5b5;
+	color: #7E7E7E;
 	position: relative;
 	min-width: 960px;
 	background: #fff;
@@ -120,6 +120,7 @@ ul.bullet-list {
     list-style: disc outside none;
     text-indent: 5px;
     margin-left: 25px;
+    margin-bottom: 20px;
 }
 
 .col1 {
@@ -162,6 +163,14 @@ a {
 a:hover {
 	color: #25a2d4;
 }
+
+a.standard-hyperlink {
+	color: #1e0fbe;
+}
+
+a.standard-hyperlink:visited {
+	color: #609;
+} 
 
 a.link1  {
 	display: inline-block;
@@ -431,7 +440,10 @@ header h1 a img {
 	margin-bottom: 20px;
 }
 
-
+.middle {
+	margin-top: 20px;
+	margin-bottom:20px;
+}
 
 .carousel1 {
 	margin-bottom: 77px;
@@ -817,7 +829,7 @@ a.link1.lnk1 {
 }
 
 a.link-1 {
-	color: #404040;
+	color: #0000FF;
 }
 
 a.link-1:hover {

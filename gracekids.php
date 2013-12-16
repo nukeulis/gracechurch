@@ -73,31 +73,37 @@
 </header>
 
 <!--=======content================================-->
-    <div class="content">
+<div class="content">
         <div class="container_12">
             <div class="grid_12">
                 <div class="box head">
-                    <h3>Welcome</h3>
+                    <h3>Grace "Kids"</h3>
                 </div>
                 <div class="box bx1 tbox">
-                    <p class="text1">We're glad you're here</p>
-                    <p><strong>Grace Church</strong> is a new church of ordinary people who have been transformed by an extraordinary gospel - Jesus Christ died and was raised so that sinners would be reconciled to God. This is the good news we have a passion to proclaim, live, and share. We invite you to join us Sundays at 10:00 am at <a href="contact.php" class="link-1">Cedar Grove Elementary School</a> on Ridge Rd (Rt.27) between Clarksburg and Damascus.</p>
+                    <p class="text1">Overview</p>
+                    <p>Christian parents have the unique privilege and responsibility of raising their children in the discipline and instruction of the Lord (Eph. 6:4).  It’s no easy task! 
+                      That’s why at Grace Church Kids we count it a joy to assist parents on Sunday morning by helping your children:</p>
 
-                    <p class="text1">Sunday Meetings</p>
-                    <p>Every Sunday we seek to remember and celebrate what is of first importance: Jesus, the Son of God, has come in the flesh to live a perfect life on our behalf, die a substitutionary death, and rise from the dead, so that we might be forgiven and reconciled to God. This gospel, or good news, is what we remind ourselves of as we sing, pray, read Scripture, give, hear God's Word preached, participate in the sacraments, and fellowship together.</p>
-                    <p>Our Welcome Table at the front door is staffed by helpful people who can answer your questions.</p>
+                    <ul class="bullet-list">
+                      <li>Enjoy fun, interactive, and educational times together</li>
+                      <li>Read and learn from the Bible (the whole thing)</li>
+                      <li>Understand how each part of the bible points to Jesus</li>
+                    </ul>
 
-                    <p class="text1">Children's Ministry</p>
-                    <p>Our children's ministry provides care and instruction for 1-year-olds through fifth graders. Check out our <a href="gracekids.php" class="link-1">Grace Kids</a> for information on what the children's ministry looks like and how it works.</p>
-                    <p>During the meeting we provide a room with a video feed for moms with infants.</p>
+                    <p class="text1">How it Works</p>
+                    <p>If you have children that are walking, 5 years old and under, you can bring them a few minutes before the service starts to the Grace Kids check-in area.  An usher will 
+                      be happy to direct you there when you arrive.  A trained and qualified volunteer will gladly get your children signed up, issue nametags, and give you a special laminated 
+                      tag to help ensure your children’s safety and security.  Each of our children’s ministry workers has had a thorough background check.  Of course, if you want to keep your 
+                      children with you for the entire meeting, please do!</p>
 
-                    <p class="text1">Accessibility</p>
-                    <p>Grace Church meets in an accessible facility.  However, if you require wheelchair access, designated parking or seating, directions to our accessible restrooms, or additional assistance, please don't hesitate to ask us.</p>
+                    <p>Children ages 5 – 10 will begin the morning in the main meeting with their parents.  They’ll be dismissed to their classes right before the sermon begins.  Again, if 
+                      you’d rather have your children stay with you for the whole meeting that is great.</p>
 
+                    <p>Moms can take noisy children or hungry infants to our “Mom’s with babies” area in the hallway behind the auditorium where there are rockers and a changing table.</p>
                 </div>
             </div>
         </div>
-    </div>
+</div>
 
 
 </div>
