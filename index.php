@@ -130,14 +130,14 @@
                     <div class="box maxheight">
                         <a href="contact.php" class="icon"><i class="icon-map-marker"></i></a>
                         <div class="p1_title">Meeting Location</div>
-                        Directions to Clarksburg Middle School
+                        <span class="text1">Directions to Clarksburg Middle School</span>
                     </div>
                 </div>
                 <div class="grid_6">
                     <div class="box maxheight">
                         <a href="welcome.php" class="icon"><i class="icon-user"></i></a>
                         <div class="p1_title">I'm New Here</div>
-                        What Grace Church is all about
+                        <span class="text1">What Grace Church is all about</span>
                     </div>
                 </div>
                 <div class="clear"></div>
@@ -145,14 +145,14 @@
                     <div class="box maxheight">
                         <a href="media.php" class="icon"><i class="icon-microphone"></i></a>
                         <div class="p1_title">Listen</div>
-                        Recent Messages at Grace Church
+                        <span class="text1">Recent Messages at Grace Church</span>
                     </div>
                 </div>
                 <div class="grid_6">
                     <div class="box maxheight">
                         <a href="contact.php" class="icon"><i class="icon-envelope"></i></a>
                         <div class="p1_title">Questions</div>
-                        Contact Us
+                        <span class="text1">Contact Us</span>
                     </div>
                 </div>
             </div>

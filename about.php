@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-     <head>
+    <head>
      <title>About</title>
      <meta charset="utf-8">
      <meta name = "format-detection" content = "telephone=no" />
@@ -19,36 +19,35 @@
      <script src="js/jquery.mobilemenu.js"></script>
      <script src="js/jquery.easing.1.3.js"></script>
 
-     <script>
-
-     $(function(){
-      $().UItoTop({ easingType: 'easeOutQuart' });
-      var pathname = window.location.pathname;
-      pathname = pathname.substring(pathname.lastIndexOf('/') + 1);
-      $("nav ul li a[href='"+pathname+"']").parent().addClass('current');
-    });   
-
-    <!--
+     <script type="text/javascript">
     // Email obfuscator script 2.1 by Tim Williams, University of Arizona
     // Random encryption key feature by Andrew Moulden, Site Engineering Ltd
     // This code is freeware provided these four comment lines remain intact
     // A wizard to generate this code is at http://www.jottings.com/obfuscator/
-    { coded = "zsaMzL.m4as@WhsIM.b4h"
-      key = "ZAYXFgqm0p7zwj4a5cHS9JRxBOWEhKukdiytslb2VDN13T8PnQ6UevIorLMCGf"
-      shift=coded.length
-      link=""
-      for (i=0; i<coded.length; i++) {
+    var coded = "zsaMzL.m4as@WhsIM.b4h";
+    var key = "ZAYXFgqm0p7zwj4a5cHS9JRxBOWEhKukdiytslb2VDN13T8PnQ6UevIorLMCGf";
+    var shift=coded.length;
+    var link="";
+    for (i=0; i<coded.length; i++) {
         if (key.indexOf(coded.charAt(i))==-1) {
-          ltr = coded.charAt(i)
-          link += (ltr)
+            ltr = coded.charAt(i)
+            link += (ltr)
         }
         else {     
-          ltr = (key.indexOf(coded.charAt(i))-shift+key.length) % key.length
-          link += (key.charAt(ltr))
+            ltr = (key.indexOf(coded.charAt(i))-shift+key.length) % key.length
+            link += (key.charAt(ltr))
         }
-      }
     }
-    //-->
+
+
+    $(function(){
+        $().UItoTop({ easingType: 'easeOutQuart' });
+        var pathname = window.location.pathname;
+        pathname = pathname.substring(pathname.lastIndexOf('/') + 1);
+        $("nav ul li a[href='" + pathname + "']").parent().addClass('current');
+        $("#neEmail").attr("href", "mailto:" + link).text(link);
+    });
+
      </script>
      <!--[if lt IE 8]>
        <div style=' clear: both; text-align:center; position: relative;'>
@@ -64,7 +63,8 @@
 
     <![endif]-->
 </head>
-<body class=""><div class="main"> <header> 
+<body class=""><div class="main">
+    <header> 
 
 <!--==============================header=================================-->
  <div class="container_12">
@@ -116,8 +116,7 @@
                     our family:</p>
 
                     <p class="text1">Small Groups</p>
-                    <p>Designed to help us apply Scripture to our lives, enjoy Biblical fellowship, and pursue ministry to each other and our community.  Please email <script type="text/javascript" language="javascript">document.write("<a class='link-1' href='mailto:"+link+"'>"+link+"</a>")</script> if you’re interested 
-                        in joining a small group.</p>
+                    <p>Designed to help us apply Scripture to our lives, enjoy Biblical fellowship, and pursue ministry to each other and our community.  Please email <a id="neEmail" class="link-1">You must Enable JavaScript</a> if you’re interested in joining a small group.</p>
                     <p>Our Welcome Table at the front door is staffed by helpful people who can answer your questions.</p>
 
                     <p class="text1">Membership class</p>
@@ -144,7 +143,7 @@
 
 </div>
 <!--==============================footer=================================-->
-<?php //include("footer.html"); ?>
+<?php include("footer.html"); ?>
 
 </body>
 </html>

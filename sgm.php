@@ -108,7 +108,7 @@
 
 </div>
 <!--==============================footer=================================-->
-<?php //include("footer.html"); ?>
+<?php include("footer.html"); ?>
 
 </body>
 </html>

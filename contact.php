@@ -23,13 +23,35 @@
     <script src="js/jquery.easing.1.3.js"></script>
 
     <script>
+        // Email obfuscator script 2.1 by Tim Williams, University of Arizona
+        // Random encryption key feature by Andrew Moulden, Site Engineering Ltd
+        // This code is freeware provided these four comment lines remain intact
+        // A wizard to generate this code is at http://www.jottings.com/obfuscator/
+        var coded = "ineTiTeyFR@dpTUyU7MpU7eu.6pd";
+        var key = "Usz2xMywkiGdmIOVSNFB7artjvDJoXZ091cW3P8ueHQlYgCEATpRnfhb6LK45q";
+        var shift=coded.length;
+        var link="";
+        for (i=0; i<coded.length; i++) {
+            if (key.indexOf(coded.charAt(i))==-1) {
+                ltr = coded.charAt(i)
+                link += (ltr)
+            }
+            else {     
+                ltr = (key.indexOf(coded.charAt(i))-shift+key.length) % key.length
+                link += (key.charAt(ltr))
+            }
+        }
+
+
         $(document).ready(function () {
             $().UItoTop({ easingType: 'easeOutQuart' });
             var pathname = window.location.pathname;
             pathname = pathname.substring(pathname.lastIndexOf('/') + 1);
             $("nav ul li a[href='" + pathname + "']").parent().addClass('current');
+            
+            $("#lmEmail").text(link).attr("href", "mailto:" + link);
         });
-
+        
     </script>
     <!--[if lt IE 8]>
        <div style=' clear: both; text-align:center; position: relative;'>
@@ -45,7 +67,7 @@
 
     <![endif]-->
 </head>
-<body class="">
+<body >
     <div class="main">
         <header>
 
@@ -61,7 +83,7 @@
 
                         <form id="search" action="search.php" method="GET">
                             <input type="text" name="s">
-                            <a onclick="document.getElementById('search').submit()" class="btn"><i class="icon-search"></i></a>
+                            <a onclick="$('#search').submit()" class="btn"><i class="icon-search"></i></a>
                             <div class="clear"></div>
                         </form>
                         <div class="socials">
@@ -78,64 +100,61 @@
         </header>
 
         <!--=======content================================-->
-        <div class="content">
-            <div class="container_12">
-                <div class="grid_4">
-                    <div class="box head">
-                        <h3>Church Office</h3>
-                    </div>
-                    <div class="box bx1">
-                        <address>
-                            <dl>
-                                <dt class="text1">Mailing Address</dt>
-                                <dd>8975 Amelung Street<br />
-                                    Frederick, MD 21704</dd>
-                                <dt><span>Church Phone:</span>
-                                    301-810-5707</dt>
-                                <dt><span>E-mail:</span>
-                                    <img src="images/email-lm.png" /></dt>
-                            </dl>
-                        </address>
-                    </div>
-
-                    <div class="head"></div>
-                    <div class="box head">
-                        <h3>Corporate Gathering</h3>
-                    </div>
-                    <div class="box bx1">
-                        <p class="text1">Service Time</p>
-                        <p>10AM | Sunday</p>
-
-                        <address>
-                            <dl>
-                                <dt class="text1">Location</dt>
-                                <dd>Cedar Grove Elementary School<br />
-                                    24001 Ridge Rd.<br />
-                                    Germantown, MD 20876</dd>
-                            </dl>
-                        </address>
-                    </div>
+        <div class="container_12">
+            <div class="grid_4">
+                <div class="box head">
+                    <h3>Church Office</h3>
                 </div>
-                <div class="grid_8">
-                    <div class="box head">
-                        <h3>Meeting Location</h3>
-                    </div>
-                    <div class="box bx1">
-                        <div class="map">
-                            <figure class="img_inner">
-                                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3089.7270208261852!2d-77.232232!3d39.249068!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1eb1ea6690dcc29e!2sCedar+Grove+Elementary+School!5e0!3m2!1sen!2sus!4v1386904947670" width="600" height="450" frameborder="0" style="border:0"></iframe>
-                            </figure>
+                <div class="box bx1">
+                    <address>
+                        <dl>
+                            <dt class="text1">Mailing Address</dt>
+                            <dd>8975 Amelung Street<br />
+                                Frederick, MD 21704</dd>
+                            <dt><span>Church Phone:</span>
+                                301-810-5707</dt>
+                            <dt><span>E-mail:</span>
+                                <a id="lmEmail" class="link-1" href="mailto:">You must Enable JavaScript</a></dt>
+                        </dl>
+                    </address>
+                </div>
 
-                        </div>
+                <div class="head"></div>
+                <div class="box head">
+                    <h3>Corporate Gathering</h3>
+                </div>
+                <div class="box bx1">
+                    <p class="text1">Service Time</p>
+                    <p>10AM | Sunday</p>
+
+                    <address>
+                        <dl>
+                            <dt class="text1">Location</dt>
+                            <dd>Cedar Grove Elementary School<br />
+                                24001 Ridge Rd.<br />
+                                Germantown, MD 20876</dd>
+                        </dl>
+                    </address>
+                </div>
+            </div>
+            <div class="grid_8">
+                <div class="box head">
+                    <h3>Meeting Location</h3>
+                </div>
+                <div class="box bx1">
+                    <div class="map">
+                        <figure class="img_inner">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3089.7270208261852!2d-77.232232!3d39.249068!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1eb1ea6690dcc29e!2sCedar+Grove+Elementary+School!5e0!3m2!1sen!2sus!4v1386904947670" width="600" height="450" frameborder="0" style="border:0"></iframe>
+                        </figure>
+
                     </div>
                 </div>
             </div>
         </div>
-
     </div>
 
 <!--==============================footer=================================-->
-<?php //include("footer.html"); ?>
+<?php include("footer.html"); ?>
 
 </body>
 </html>

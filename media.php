@@ -50,35 +50,32 @@
 
     <![endif]-->
 </head>
-<body class="">
+<body>
     <div class="main">
         <header>
-
             <!--==============================header=================================-->
             <div class="container_12">
                 <div class="grid_12">
                     <h1>
-                        <a href="index.php">
-                            <img src="images/logo-2x.png">
-                        </a>
+                        <a href="index.php"><img src="images/logo-2x.png"></a>
                     </h1>
                     <div class="head_top">
 
                         <form id="search" action="search.php" method="GET">
                             <input type="text" name="s">
-                            <a onclick="document.getElementById('search').submit()" class="btn"><i class="icon-search"></i></a>
+                            <a onclick="$('search').submit()" class="btn"><i class="icon-search"></i></a>
                             <div class="clear"></div>
-                        </form> <div class="socials">
+                        </form>
+                        <div class="socials">
                             <a href="#"><i class="icon-twitter"></i></a>
-                            <a href="#"><i class="icon-facebook"></i> </a>
+                            <a href="#"><i class="icon-facebook"></i></a>
                         </div>
                     </div>
 
                     <?php include("menu.html"); ?>
 
-                    </div>
-                    <div class="clear"></div>
                 </div>
+                <div class="clear"></div>
             </div>
         </header>
 
@@ -206,5 +203,8 @@
             </div>
         </div>
     </div>
+    <!--==============================footer=================================-->
+    <?php include("footer.html"); ?>
+
 </body>
 </html>
