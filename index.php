@@ -130,7 +130,7 @@
                     <div class="box maxheight">
                         <a href="contact.php" class="icon"><i class="icon-map-marker"></i></a>
                         <div class="p1_title">Meeting Location</div>
-                        <span class="text1">Directions to Cedar Grove Elementary school</span>
+                        <span class="text1">Directions to Cedar Grove Elementary School</span>
                     </div>
                 </div>
                 <div class="grid_6">

@@ -6,7 +6,7 @@
      <meta name = "format-detection" content = "telephone=no" />
      <link rel="icon" href="images/favicon.ico">
      <link rel="shortcut icon" href="images/favicon.ico" />
-     <link rel="stylesheet" href="css/style.css">
+	 <link href='http://fonts.googleapis.com/css?family=Karla' rel='stylesheet' type='text/css'>	 <link href='http://fonts.googleapis.com/css?family=Gilda+Display' rel='stylesheet' type='text/css'>	 <link rel="stylesheet" href="css/style.css">
      <link rel="stylesheet" href="css/font-awesome.css">
      <script src="js/jquery.js"></script>
      <script src="js/jquery-migrate-1.1.1.js"></script>
@@ -34,14 +34,11 @@
     <!--[if lt IE 9]>
       <script src="js/html5shiv.js"></script>
       <link rel="stylesheet" media="screen" href="css/ie.css">
-
-
     <![endif]-->
      </head>
 <body class="">
     <div class="main">
 <!--==============================header=================================-->
-
         <header>
              <div class="container_12">
                 <div class="grid_12">
@@ -54,14 +51,12 @@
 
                         <form id="search" action="search.php" method="GET">
                             <input type="text" name="s">
-                            <a onclick="document.getElementById('search').submit()" class="btn"><i class="icon-search"></i></a>
+                            <a onclick="$('#search').submit()" class="btn"><i class="icon-search"></i></a>
                             <div class="clear"></div>
                         </form>
                         <div class="socials">
                             <a href="#"><i class="icon-twitter"></i></a>
                             <a href="#"><i class="icon-facebook"></i></a>
-                            <a href="#"><i class="icon-google-plus"></i></a>
-                            <a href="#"><i class="icon-camera-retro"></i></a>
                         </div>
                     </div>
 

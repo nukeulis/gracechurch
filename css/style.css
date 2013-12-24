@@ -625,10 +625,6 @@ a.link1.lnk1 {
     margin-top: 10px;
 }
 
-.table1 td:first-child {
-	width: 176px;
-}
-
 .table1 tbody  td:first-child{
 	text-align: left;
 	height: 69px;
@@ -652,7 +648,7 @@ a.link1.lnk1 {
 	text-align: right;
 	padding-right: 5px;
 	padding-left: 5px;
-}
+}.table1 thead th+th+th+th+th {	text-align: right;	padding-right: 5px;	padding-left: 5px;}
 
 .table1 tbody td {
 	text-align: center;
@@ -686,7 +682,7 @@ a.link1.lnk1 {
 	font: 16px/22px 'Karla', sans-serif;
 	background-color: #25a2d4;
 }
-
+.table1 thead th {	padding-left: 16px;	padding: 9px 0 9px 16px;}
 .table1 thead td {
 	padding-left: 16px;
 	padding: 9px 0 9px 16px;
@@ -971,10 +967,10 @@ footer h4 {
 	width: 80px;
 
 	}
-
-	.table1 thead td:first-child {
-		padding-left: 3px !important;
-	}
+.table1 thead th:first-child {	padding-left: 3px !important;}
+.table1 thead td:first-child {
+	padding-left: 3px !important;
+}
 
 .table1  td:first-child {
 width: 80px;
@@ -993,7 +989,7 @@ ul.list {
 
 
 
-
+.table1 thead th {	padding-left: 0 !important;	padding-right: 4px !important;}
 .table1 thead td {
 	padding-left: 0 !important;
 	padding-right: 4px !important;

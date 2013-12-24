@@ -58,6 +58,7 @@ foreach($files as $file){
 	<title>Search results</title>	
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">  
 	<link rel="stylesheet" href="search.css">
+	<link rel="stylesheet" href="../css/style.css">
 	    <!--[if lt IE 9]>
       <script src="js/html5shiv.js"></script>
       <link href='http://fonts.googleapis.com/css?family=Dosis:400' rel='stylesheet' type='text/css'>
@@ -88,14 +89,14 @@ foreach($files as $file){
 	?>
 			<li>
 				<h4 class="search_title"><a target="_top" href="<?php echo $final_result[$i]['file_name'][0]; ?>" class="search_link"> <?php echo $final_result[$i]['page_title'][0]; ?> </a></h4>
-				...<?php echo $final_result[$i]['search_result'][0]; ?>...
+				<div class="text1">...<?php echo $final_result[$i]['search_result'][0]; ?>...</div>
 				<span class="match">Terms matched: <?php echo count($final_result[$i]['search_result']); ?> - URL: <?php echo $final_result[$i]['file_name'][0]; ?></span>
 			</li>
 	<?php
 			}
 		}
 		if ($match_count == 0) {
-			echo '<li style="margin-left: -15px; background: #fff;"><h4>No results found for <span class="search">'.$search_term.'</span></h4></li>';
+			echo '<li style="margin-left: -15px; background: #fff;"><div class="text1">No results found for <span class="search">'.$search_term.'</span></div></li>';
 		}
 	?>
 		</ol>
