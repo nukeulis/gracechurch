@@ -72,7 +72,7 @@
                      <h3>Sermons</h3>
                   </div>
                   <div class="box bx1 tbox">
-                     <table class="table1" id="sermons">
+                     <table class="table1 tablesorter" id="sermons">
                         <thead>
                            <tr>
                               <th>Sermon</th>

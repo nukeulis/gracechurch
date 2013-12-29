@@ -23,7 +23,6 @@ body {
 	background: #fff;
 }
 
-
 .main {
 	background: #f7f7f7;
 }
@@ -644,11 +643,6 @@ a.link1.lnk1 {
 	text-align: right;
 }
 
-.table1 thead td+td+td+td {
-	text-align: right;
-	padding-right: 5px;
-	padding-left: 5px;
-}.table1 thead th+th+th+th+th {	text-align: right;	padding-right: 5px;	padding-left: 5px;}
 
 .table1 tbody td {
 	text-align: center;
@@ -682,12 +676,21 @@ a.link1.lnk1 {
 	font: 16px/22px 'Karla', sans-serif;
 	background-color: #25a2d4;
 }
-.table1 thead th {	padding-left: 16px;	padding: 9px 0 9px 16px;}
-.table1 thead td {
-	padding-left: 16px;
-	padding: 9px 0 9px 16px;
-}
+.table1 thead th {	padding-left: 16px;	padding: 9px 9px 9px 16px;}
 
+table.tablesorter thead tr .header {
+	background-image: url(../images/ts.bg.gif);
+	background-repeat: no-repeat;
+	background-position: center right;
+	cursor: pointer;
+    border: 1px solid #FFF;
+}
+table.tablesorter thead tr .headerSortUp {
+	background-image: url(../images/ts.asc.gif);
+}
+table.tablesorter thead tr .headerSortDown {
+	background-image: url(../images/ts.desc.gif);
+}
 
 
 .various {
