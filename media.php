@@ -125,6 +125,7 @@
 					<a href="media.php" class="link1 lnk1">view all</a>                
 				</div>
             </div>
+             <!--
 			<div class="container_12">
                <div class="grid_12">
 					<div class="video">
@@ -141,6 +142,7 @@
 					</div>
 				</div>
 			</div>
+                 -->
          </div>
       </div>
       <!--==============================footer=================================-->    
