@@ -895,50 +895,32 @@ footer h4 {
  body {
  min-width: 768px;
 }
-
-
 .page1_block .p1_title {
 	padding-top: 24px;
 }
-
 .min {
 	width: 204px;
 }
-
-
 .slider_wrapper {
 	height: 405px !important;
 }
-
-.page1 .camera_thumbs_cont ul {
-	margin-top: 0 !important;
-	margin-left: -64px !important;
+.page1 .camera_thumbs_cont {
+    margin-bottom: 0 !important;
 }
-
-.caption {
-	left: -64px !important;
-}
-
 .camera_prev {
-	left: -64px !important;
 	bottom: 22px !important;
 }
-
 .camera_next {
-	left: -18px !important;
+	left: 46px !important;
 	bottom: 22px !important;
 }
-
  .nowrap {
  white-space: normal;
 }
-
-
  .map address {
  float: left;
  margin-right: 30px;
 }
-
  .map address+address {
  	margin-top: 0;
  }
@@ -958,80 +940,63 @@ footer h4 {
  .extra_wrapper {
  overflow: visible;
 }
-
 .map figure {
 	margin-bottom: 15px;
 }
-
 .table1 tbody td:first-child {
 	padding-right: 20px;
 	padding-top: 20px;
 	padding-bottom: 20px;
 	width: 80px;
-
-	}
+ }
 .table1 thead th:first-child {	padding-left: 3px !important;}
 .table1 thead td:first-child {
 	padding-left: 3px !important;
 }
-
 .table1  td:first-child {
-width: 80px;
-
- }
-
+    width: 80px;
+}
 ul.list {
 	width: 35%;
 }
-
 }
+
+/*=========HORIZONTAL MOBILE LAYOUT=============**/
 @media only screen and (max-width: 767px) {
  body {
  min-width: 420px;
 }
-
-
 
 .table1 thead th {	padding-left: 0 !important;	padding-right: 4px !important;}
 .table1 thead td {
 	padding-left: 0 !important;
 	padding-right: 4px !important;
 }
-
 .table1 tbody td:first-child {
-
-	width: auto;
-
-	}
-
-	.table1 td {
-		padding-right: 10px !important;
-	}
+    width: auto;
+}
+.table1 td {
+	padding-right: 10px !important;
+}
 .table1  td:first-child {
 	padding-right: 0 !important;
 	width: auto;
-
  }
-
 .video img {
 	width: 100%;
 }
-
 a.link1.lnk1 {
 	margin-bottom: 40px;
 }
-
 #search {
 	float: none;
 	width: auto !important;
 }
-
 .head_top  {
 	padding-top: 0;
 	float: none;
 	padding-bottom: 0;
 }
-
 .socials {
 	background: #25a2d4;
 	float: none;
@@ -1039,10 +1004,7 @@ a.link1.lnk1 {
 	text-align: center;
 	word-spacing: -3px;
 }
-
-
 .socials a {
-
 	float: none;
 	display: inline-block;
 }
@@ -1050,87 +1012,75 @@ a.link1.lnk1 {
 	padding-left: 15px;
 	padding-right: 15px;
 }
-
 .min {
 	float: none;
 	width: auto;
 	margin-left: 0;
 	margin-right: 0;
 }
-
 .off1 {
 	margin-bottom: 0;
 }
-
 .head {
 	margin-top: 50px;
 }
-
 ul.list {
 	width: auto;
 	margin-left: 0 !important;
 }
-
 ul.list  {
 	margin-top: 10px;
 }
-
 .page1_block .clear {
 	height: 0;
 }
-
 .page1 .camera_thumbs_cont ul {
 	margin-top: 0 !important;
 	margin-left: 0px !important;
 	width: 420px !important;
+    top:-91px;
 }
-
 .camera_thumbs_cont ul li {
 	display: block !important;
 	float: left !important;
 	width: 25% !important;
 
 }
-
 .camera_thumbs_cont ul li img {
 	max-width: 100%;
 }
-
-
 .caption {
 	display: none;
 }
-
+.camera_command_wrap {
+    display:none !important;
+}
 .camera_prev {
-	left: auto !important;
+	/*left: auto !important;
 	right: 46px !important;
 	top: 0px !important;
-	bottom: auto !important;
+	bottom: auto !important;*/
+    display: none !important;
 }
-
 .camera_next {
-	left: auto !important;
+	/*left: auto !important;
 	right: 0px !important;
 	top: 0 !important;
-	bottom: auto !important;
+	bottom: auto !important;*/
+    display: none !important;
 }
-
 .page1_block  .box {
 	margin-bottom: 22px;
 }
-
-
 .img_inner {
 width: 100% !important;
 float: none !important;
 margin-right: 0 !important;
 margin-bottom: 20px !important;
 }
-
 .img_inner img {
 	width: 100%;
 }
-
  header {
  position: relative;
 }
@@ -1155,7 +1105,6 @@ margin-bottom: 20px !important;
  .map address {
  	margin-right: 0;
 }
-
  .map address+address {
  	margin-left: 20px;
  }
@@ -1165,65 +1114,58 @@ margin-bottom: 20px !important;
  margin-right: 20px !important;
  margin-top: 4px !important;
 }
-
-
  .img_inner {
  margin-top: 20px;
 }
-
 .slider_wrapper {
 	height: 305px !important;
 }
-
 footer .grid_2 {
 	float: left !important;
 	width: 50% !important;
 }
-
 footer .clear1 {
 	clear: both;
 }
-
 }
+
+/*=========VERTICAL MOBILE LAYOUT=============**/
 @media only screen and (max-width: 479px) {
  body {
  min-width: 300px;
 }
-
 .table1{
 	font-size: 11px;
 }
-
  .table1  a {
  	font-size: 10px;
  	padding-left: 3px;
  	padding-right: 3px;
  }
-
 .table1 thead{
 	font-size: 12px;
 }
-
 .table1 tbody td + td + td + td {
 	text-align: left;
 }
-
 .table1 td {
 	padding-right: 2px !important;
 }
-
 .page1_block .p1_title {
     padding-top: 15px;
 }
-
 .page1_block .p1_title {
     font-size: 27px;
 }
-
-.page1 .camera_thumbs_cont ul {
-	width: 300px !important;
+.camera_command_wrap {
+    display:none !important;
 }
-
+.camera_next  {
+    display:none !important;
+}
+.camera_prev {
+    display:none !important;
+}
 .slider_wrapper {
 	height: 289px !important;
 }

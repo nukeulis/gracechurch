@@ -1,13 +1,9 @@
-
-
  /**************************
 *
 *	GENERAL
 *
 **************************/
-
-
-
+ 
 .slider_wrapper {
 	overflow: hidden;
 	position: relative;
@@ -144,7 +140,6 @@
 	display: none;	
 }
 
-
 .slide_wrapper .camera_prev{
 	background: url(../images/prevnext_bg.png) 0 0 repeat;
 	width: 70px;	
@@ -183,15 +178,12 @@
 	height: 20px;
 }
 
-
-
 .slide_wrapper .camera_next {
 	background: url(../images/prevnext_bg.png) 0 0 repeat;
 	width: 70px;	
 	top: 0  !important;
 	bottom: 0;
 	height: auto !important;
-
 	right: -80px;
 	display: block;
 	position: absolute;
@@ -208,11 +200,10 @@
     top: -51px;
 }
 
-
 .camera_thumbs_cont > div {
-	float: left;
+	float:left;
 	width: 100%;
-
+    align-content: center;
 }
 .camera_thumbs_cont ul {
 	overflow: hidden;
@@ -223,8 +214,7 @@
 	text-align: center;
 	/*background-color: #b8684f;*/
 }
-.camera_thumbs_cont ul li {
-	
+.camera_thumbs_cont ul li {	
 	display: inline;
 }
 .camera_thumbs_cont ul li > img {
@@ -256,18 +246,14 @@
 	position: relative;
 }
 
-
-
 .caption {
 	/*left: -80px;*/
 	border-left: 5px solid #25a2d4;
 	background-color: #323232;
 	width: 385px;
 	position: absolute;
-	top: 250px;
-
+	bottom: 60px;
 }
-
 
 
 /**************************
@@ -288,13 +274,10 @@
 	float: left;	right: 0;
 	z-index: 999;
 	text-align: left;
-
 }
 
 .camera_pag_ul {
  	overflow: hidden;
-
-
 }
 
 .camera_pag ul li {
@@ -320,7 +303,6 @@
 	cursor: pointer;
 }
 
-
 **************************/
 .camera_prev {
 	display: block;
@@ -336,7 +318,6 @@
 	-o-transition: 0.5s ease;
 	-webkit-transition: 0.5s ease;
 }
-
 
 .camera_next {
 	right: 80px;
@@ -355,10 +336,7 @@
 
 }
 
-
 .camera_prev:hover, .camera_next:hover {
 	background-color: #323232;
 	cursor: pointer;
 }
-
-
