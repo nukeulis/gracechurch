@@ -125,7 +125,7 @@
                 </div>
                 <div class="box bx1">
                     <p class="text1">Service Time</p>
-                    <p>10AM | Sunday </br><span style="color:red">(First meeting: Jan. 5th, 2014)</span></p>
+                    <p>10AM | Sunday</p>
 
                     <address>
                         <dl>
