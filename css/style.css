@@ -17,7 +17,7 @@ a[href^="tel:"] {
 }
 body {
 	font: 12px/20px Arial, Helvetica, sans-serif;
-	color: #7E7E7E;
+	color: #000000;
 	position: relative;
 	min-width: 960px;
 	background: #fff;
@@ -525,11 +525,17 @@ a.prev1:hover,a.next1:hover {
 }
 
 .text1 {
-	color: #404040;
+	color: #000000;
 	font: 16px/22px 'Karla', sans-serif;
 	margin-bottom: 12px;
+	font-weight: bold;
 }
 
+.banner{
+	color: #000000;
+	font: 16px/22px 'Karla', sans-serif;
+	margin-bottom: 12px;	
+}
 .quote_title {
 	color: #404040;
 	font: 16px/22px 'Karla', sans-serif;

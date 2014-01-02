@@ -130,14 +130,14 @@
                     <div class="box maxheight">
                         <a href="contact.php" class="icon"><i class="icon-map-marker"></i></a>
                         <div class="p1_title">Meeting Location</div>
-                        <span class="text1">Directions to Cedar Grove Elementary School</span>
+                        <span class="banner">Directions to Cedar Grove Elementary School</span>
                     </div>
                 </div>
                 <div class="grid_6">
                     <div class="box maxheight">
                         <a href="welcome.php" class="icon"><i class="icon-user"></i></a>
                         <div class="p1_title">I'm New Here</div>
-                        <span class="text1">What Grace Church is all about</span>
+                        <span class="banner">What Grace Church is all about</span>
                     </div>
                 </div>
                 <div class="clear"></div>
@@ -145,14 +145,14 @@
                     <div class="box maxheight">
                         <a href="media.php" class="icon"><i class="icon-microphone"></i></a>
                         <div class="p1_title">Listen</div>
-                        <span class="text1">Recent Messages at Grace Church</span>
+                        <span class="banner">Recent Messages at Grace Church</span>
                     </div>
                 </div>
                 <div class="grid_6">
                     <div class="box maxheight">
                         <a href="contact.php" class="icon"><i class="icon-envelope"></i></a>
                         <div class="p1_title">Questions</div>
-                        <span class="text1">Contact Us</span>
+                        <span class="banner">Contact Us</span>
                     </div>
                 </div>
             </div>
