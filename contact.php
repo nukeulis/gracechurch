@@ -143,10 +143,10 @@
                 </div>
                 <div class="box bx1">
                     <div class="map">
+                        <img src="images/Contact/Cedar_Grove_Elementary.jpg" alt="What we believe"><br><br>
                         <figure class="img_inner">
                             <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3089.7270208261852!2d-77.232232!3d39.249068!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1eb1ea6690dcc29e!2sCedar+Grove+Elementary+School!5e0!3m2!1sen!2sus!4v1386904947670" width="600" height="450" frameborder="0" style="border:0"></iframe>
                         </figure>
-
                     </div>
                 </div>
             </div>
