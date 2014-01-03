@@ -4,8 +4,8 @@
      <title>Search</title>
      <meta charset="utf-8">
      <meta name = "format-detection" content = "telephone=no" />
-     <link rel="icon" href="images/favicon.ico">
-     <link rel="shortcut icon" href="images/favicon.ico" />
+     <link rel="icon" href="images/icons/favicon.ico">
+     <link rel="shortcut icon" href="images/icons/favicon.ico" />
 	 <link href='http://fonts.googleapis.com/css?family=Karla' rel='stylesheet' type='text/css'>	 <link href='http://fonts.googleapis.com/css?family=Gilda+Display' rel='stylesheet' type='text/css'>	 <link rel="stylesheet" href="css/style.css">
      <link rel="stylesheet" href="css/font-awesome.css">
      <script src="js/jquery.js"></script>
@@ -44,7 +44,7 @@
                 <div class="grid_12">
                     <h1>
                         <a href="index.php">
-                            <img src="images/logo-2x.png" alt="Grace Church">
+                            <img src="images/icons/logo-2x.png" alt="Grace Church">
                         </a>
                     </h1>
                     <div class="head_top">

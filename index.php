@@ -4,8 +4,8 @@
     <title>Grace Church of Clarksburg: Clarksburg, MD</title>
     <meta charset="utf-8">
     <meta name="format-detection" content="telephone=no" />
-    <link rel="icon" href="images/favicon.ico">
-    <link rel="shortcut icon" href="images/favicon.ico" />
+    <link rel="icon" href="images/icons/favicon.ico">
+    <link rel="shortcut icon" href="images/icons/favicon.ico" />
     <link href='http://fonts.googleapis.com/css?family=Karla' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Gilda+Display' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/style.css">
@@ -66,7 +66,7 @@
             <div class="container_12">
                 <div class="grid_12">
                     <h1>
-                        <a href="index.php"><img src="images/logo-2x.png"></a>
+                        <a href="index.php"><img src="images/icons/logo-2x.png"></a>
                     </h1>
                     <div class="head_top">
                         <form id="search" action="search.php" method="GET">
@@ -94,34 +94,35 @@
         <!--=======flashy stuff================================-->
         <div class="container_12">
             <div class="slider_wrapper">
-                <div class="grid_12 alpha omega">
+                <img src="images/Home/Clarksburg.jpg" alt="What we believe">
+                <!-- <div class="grid_12 alpha omega">
 
                         <div id="camera_wrap" class="">
-                            <div data-src="images/slide.jpg" data-thumb="images/thumb.jpg">
+                            <div data-src="images/icons/slide.jpg" data-thumb="images/icons/thumb.jpg">
                                 <div class="caption fadeIn">
                                     <h2>love<span>Love God, love people, love life</span></h2>
                                 </div>
                             </div>
-                            <div data-src="images/slide1.jpg" data-thumb="images/thumb1.jpg">
+                            <div data-src="images/icons/slide1.jpg" data-thumb="images/icons/thumb1.jpg">
                                 <div class="caption fadeIn">
                                     <h2>hope<span>Here hope triumphs over sorrow
                                     </span></h2>
                                 </div>
                             </div>
-                            <div data-src="images/slide2.jpg" data-thumb="images/thumb2.jpg">
+                            <div data-src="images/icons/slide2.jpg" data-thumb="images/icons/thumb2.jpg">
                                 <div class="caption fadeIn">
                                     <h2>faith<span>Dive deeper into the faith!</span></h2>
                                 </div>
                             </div>
-                            <div data-src="images/slide3.jpg" data-thumb="images/thumb3.jpg">
+                            <div data-src="images/icons/slide3.jpg" data-thumb="images/icons/thumb3.jpg">
                                 <div class="caption fadeIn">
                                     <h2>grace<span>Living in God’s amazing grace</span></h2>
                                 </div>
                             </div>
                         </div>
-                </div>
+                </div> -->
             </div>
-            <div class="camera_thumbs_cont"></div>
+            <!-- <div class="camera_thumbs_cont"></div> -->
         </div>
 
         <div class="page1_block">

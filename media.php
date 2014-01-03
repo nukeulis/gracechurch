@@ -6,8 +6,8 @@
       <meta name="format-detection" content="telephone=no" />
       <link href='http://fonts.googleapis.com/css?family=Karla' rel='stylesheet' type='text/css'>
       <link href='http://fonts.googleapis.com/css?family=Gilda+Display' rel='stylesheet' type='text/css'>
-      <link rel="icon" href="images/favicon.ico">
-      <link rel="shortcut icon" href="images/favicon.ico" />
+      <link rel="icon" href="images/icons/favicon.ico">
+      <link rel="shortcut icon" href="images/icons/favicon.ico" />
       <link rel="stylesheet" href="css/style.css">
       <link rel="stylesheet" href="css/font-awesome.css">
       <link rel="stylesheet" href="css/jquery.fancybox-1.3.4.css">
@@ -49,7 +49,7 @@
             <!--==============================header=================================-->            
             <div class="container_12">
                <div class="grid_12">
-                  <h1><a href="index.php"><img src="images/logo-2x.png"></a></h1>
+                  <h1><a href="index.php"><img src="images/icons/logo-2x.png"></a></h1>
                   <div class="head_top">
                      <form id="search" action="search.php" method="GET">
                         <input type="text" name="s"><a onclick="$('search').submit()" class="btn"><i class="icon-search"></i></a><div class="clear"></div>
@@ -129,7 +129,7 @@
 			<div class="container_12">
                <div class="grid_12">
 					<div class="video">
-						<a id="books" class="various iframe img-bot"><img src="images/page4_img1.jpg" alt=""><span></span></a>
+						<a id="books" class="various iframe img-bot"><img src="images/icons/page4_img1.jpg" alt=""><span></span></a>
 						<a href="#" class="videolink">Books</a>
 					</div>
 				</div>
@@ -137,7 +137,7 @@
 			<div class="container_12">
                <div class="grid_12">
 					<div class="video">
-						<a id="music" class="various iframe img-bot"><img src="images/page4_img2.jpg" alt=""><span></span></a>
+						<a id="music" class="various iframe img-bot"><img src="images/icons/page4_img2.jpg" alt=""><span></span></a>
 						<a href="#" class="videolink">Music</a>
 					</div>
 				</div>

@@ -4,8 +4,8 @@
     <title>Events</title>
     <meta charset="utf-8">
     <meta name="format-detection" content="telephone=no" />
-    <link rel="icon" href="images/favicon.ico">
-    <link rel="shortcut icon" href="images/favicon.ico" />
+    <link rel="icon" href="images/icons/favicon.ico">
+    <link rel="shortcut icon" href="images/icons/favicon.ico" />
     <link href='http://fonts.googleapis.com/css?family=Karla' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Gilda+Display' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/style.css">
@@ -51,7 +51,7 @@
                 <div class="grid_12">
                     <h1>
                         <a href="index.php">
-                            <img src="images/logo-2x.png">
+                            <img src="images/icons/logo-2x.png">
                         </a>
                     </h1>
                     <div class="head_top">
@@ -82,35 +82,35 @@
                     </div>
                     <div class="box bx1 mins">
                         <div class="min maxheight">
-                            <img src="images/page3_img1.jpg" alt="">
+                            <img src="images/icons/page3_img1.jpg" alt="">
                             <div class="text1"><a href="#">Aenean nonummy hendrerit  au.</a></div>Phasellus porta. Fusce suscipit varius mi. Cum sociis natoque penatibus et mag.
                         </div>
                         <div class="min maxheight">
-                            <img src="images/page3_img2.jpg" alt="">
+                            <img src="images/icons/page3_img2.jpg" alt="">
                             <div class="text1"><a href="#">Donec sagittis euismod purus.</a></div>Phasellus porta. Fusce suscipit varius mi. Cum sociis natoque penatibus et mag.
                         </div>
                         <div class="min maxheight">
-                            <img src="images/page3_img3.jpg" alt="">
+                            <img src="images/icons/page3_img3.jpg" alt="">
                             <div class="text1"><a href="#">Aenean nonummy hendrerit  au.</a></div>Phasellus porta. Fusce suscipit varius mi. Cum sociis natoque penatibus et mag.
                         </div>
                         <div class="min maxheight">
-                            <img src="images/page3_img4.jpg" alt="">
+                            <img src="images/icons/page3_img4.jpg" alt="">
                             <div class="text1"><a href="#">Donec sagittis euismod purus.</a></div>Phasellus porta. Fusce suscipit varius mi. Cum sociis natoque penatibus et mag.
                         </div>
                         <div class="min maxheight">
-                            <img src="images/page3_img5.jpg" alt="">
+                            <img src="images/icons/page3_img5.jpg" alt="">
                             <div class="text1"><a href="#">Aenean nonummy hendrerit  au.</a></div>Phasellus porta. Fusce suscipit varius mi. Cum sociis natoque penatibus et mag.
                         </div>
                         <div class="min maxheight">
-                            <img src="images/page3_img6.jpg" alt="">
+                            <img src="images/icons/page3_img6.jpg" alt="">
                             <div class="text1"><a href="#">Donec sagittis euismod purus.</a></div>Phasellus porta. Fusce suscipit varius mi. Cum sociis natoque penatibus et mag.
                         </div>
                         <div class="min maxheight">
-                            <img src="images/page3_img7.jpg" alt="">
+                            <img src="images/icons/page3_img7.jpg" alt="">
                             <div class="text1"><a href="#">Aenean nonummy hendrerit  au.</a></div>Phasellus porta. Fusce suscipit varius mi. Cum sociis natoque penatibus et mag.
                         </div>
                         <div class="min maxheight">
-                            <img src="images/page3_img8.jpg" alt="">
+                            <img src="images/icons/page3_img8.jpg" alt="">
                             <div class="text1"><a href="#">Donec sagittis euismod purus.</a></div>Phasellus porta. Fusce suscipit varius mi. Cum sociis natoque penatibus et mag.
                         </div>
                     </div>
