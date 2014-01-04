@@ -77,13 +77,7 @@ h2 span {
 	display: block;
 }
 
-h3 {
-	background: #25a2d4;
-	display: inline-block;
-	padding: 4px 15px 6px;
-	font-size: 18px;
-	line-height: 30px;
-	color: #fff;
+h3 {	background: #25a2d4;	display: inline-block;	padding: 4px 15px 6px;	font-size: 18px;	line-height: 30px;	color: #fff;
 }
 
 h4 {
@@ -107,7 +101,7 @@ ul.list+ul.list {
 
 ul.list  li{
 	padding-left: 18px;
-	background: url(../images/link_arrow.png) 0 7px no-repeat;
+	background: url(../images/icons/link_arrow.png) 0 7px no-repeat;
 	color: #404040;
 }
 
@@ -176,7 +170,7 @@ a.link1  {
 	font: 16px/22px 'Karla', sans-serif;
 	color: #404040;
 	padding-right: 14px;
-	background: url(../images/link_arrow.png) right 10px no-repeat;
+	background: url(../images/icons/link_arrow.png) right 10px no-repeat;
 }
 
 a.link1:hover {
@@ -187,7 +181,7 @@ blockquote {
 	padding-left: 16px;
 	padding-top: 11px;
 	margin-top: -7px;
-	background: url(../images/quotes.png) 0 0 no-repeat;
+	background: url(../images/icons/quotes.png) 0 0 no-repeat;
 }
 
 blockquote .text1 {
@@ -495,7 +489,7 @@ a.prev,a.next {
 	display: block;
 	width: 40px;
 	height: 40px;
-	background: url(../images/prevnext.png) 0 0 no-repeat #25a2d4;
+	background: url(../images/icons/prevnext.png) 0 0 no-repeat #25a2d4;
 }
 
 a.next {
@@ -513,7 +507,7 @@ a.prev1, a.next1 {
 	display: block;
 	width: 40px;
 	height: 40px;
-	background: url(../images/prevnext.png) 0 0 no-repeat #25a2d4;
+	background: url(../images/icons/prevnext.png) 0 0 no-repeat #25a2d4;
 }
 
 a.next1 {
@@ -685,17 +679,17 @@ a.link1.lnk1 {
 .table1 thead th {	padding-left: 16px;	padding: 9px 9px 9px 16px;}
 
 table.tablesorter thead tr .header {
-	background-image: url(../images/ts.bg.gif);
+	background-image: url(../images/icons/ts.bg.gif);
 	background-repeat: no-repeat;
 	background-position: center right;
 	cursor: pointer;
     border: 1px solid #FFF;
 }
 table.tablesorter thead tr .headerSortUp {
-	background-image: url(../images/ts.asc.gif);
+	background-image: url(../images/icons/ts.asc.gif);
 }
 table.tablesorter thead tr .headerSortDown {
-	background-image: url(../images/ts.desc.gif);
+	background-image: url(../images/icons/ts.desc.gif);
 }
 
 
@@ -720,7 +714,7 @@ table.tablesorter thead tr .headerSortDown {
 	display: block;
 	padding: 13px 62px 17px 19px;
 	letter-spacing: -1px;
-	background: url(../images/link_marker.png) right 22px no-repeat #25a2d4;
+	background: url(../images/icons/link_marker.png) right 22px no-repeat #25a2d4;
 
 }
 
@@ -729,7 +723,7 @@ table.tablesorter thead tr .headerSortDown {
 }
 
 .various span {
-    background: url("../images/marker2.png") no-repeat scroll 50% 50% transparent;
+    background: url("../images/icons/marker2.png") no-repeat scroll 50% 50% transparent;
     display: block;
     height: 100%;
     left: 0;
@@ -885,7 +879,7 @@ footer h4 {
 	border: none;
 	text-indent: -999px;
 	z-index: 20;
-	background: url(../images/totop.png) no-repeat left 0;
+	background: url(../images/icons/totop.png) no-repeat left 0;
 	transition: 0s ease;
 	-o-transition: 0s ease;
 	-webkit-transition: 0s ease;
@@ -1038,7 +1032,7 @@ ul.list  {
 	margin-top: 10px;
 }
 .page1_block .clear {
-	height: 0;
+	height: 5;
 }
 .page1 .camera_thumbs_cont ul {
 	margin-top: 0 !important;

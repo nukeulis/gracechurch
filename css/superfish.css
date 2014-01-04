@@ -64,7 +64,7 @@ position: relative;
 	left: 50%;
 	margin-left: -2px;
 	width: 5px;
-	background: url(../images/arrows.png) 0 bottom;
+	background: url(../images/icons/arrows.png) 0 bottom;
 	height: 4px;
 	bottom: -10px;
 	pointer-events: none;
@@ -87,7 +87,7 @@ position: relative;
 .sf-menu>li>ul>li>a>span {
 	position: absolute;
 	width: 5px;
-	background: url(../images/arrows.png) no-repeat 0 0;
+	background: url(../images/icons/arrows.png) no-repeat 0 0;
 	height: 4px;
 	right: -20px;
 	bottom: 5px;

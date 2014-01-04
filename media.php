@@ -49,7 +49,7 @@
             <!--==============================header=================================-->            
             <div class="container_12">
                <div class="grid_12">
-                  <h1><a href="index.php"><img src="images/icons/logo-2x.png"></a></h1>
+                  <h1><a href="index.php"><img src="images/icons/logo3.jpg"></a></h1>
                   <div class="head_top">
                      <form id="search" action="search.php" method="GET">
                         <input type="text" name="s"><a onclick="$('search').submit()" class="btn"><i class="icon-search"></i></a><div class="clear"></div>

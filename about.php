@@ -71,7 +71,7 @@
   <div class="grid_12">
    <h1>
         <a href="index.php">
-          <img src="images/icons/logo-2x.png" alt="Grace Church">
+          <img src="images/icons/logo3.jpg" alt="Grace Church">
         </a>
       </h1>
       <div class="head_top">
@@ -102,9 +102,9 @@
                     <h3 id="beliefs">What we believe</h3>
                 </div>
                 <div class="box bx1 tbox">
-                    <p class="text1">At the core of what we believe is the gospel of Jesus Christ – the glorious truth that Jesus Christ died and was raised so that sinners would be reconciled to God.</p>
                     <img src="images/About/What_We_Believe-Banner.jpg" alt="What we believe">
                     <br><br>
+                    <p class="text1">At the core of what we believe is the gospel of Jesus Christ – the glorious truth that Jesus Christ died and was raised so that sinners would be reconciled to God.</p>
                     <p>The gospel is our primary passion and driving influence in our church’s preaching, worship, small groups, and outreach. Our Statement of Faith can be found on 
                                 the <a href="http://www.sovereigngraceministries.org/about-us/what-we-believe.aspx" class="link-1">Sovereign Grace Churches website</a>.</p>
                 </div>

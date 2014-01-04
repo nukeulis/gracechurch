@@ -10,7 +10,7 @@
     <link href='http://fonts.googleapis.com/css?family=Gilda+Display' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/font-awesome.css">
-    <link rel="stylesheet" href="css/camera.css">
+    <!--link rel="stylesheet" href="css/camera.css"-->
     <script src="js/jquery.js"></script>
     <script src="js/jquery-migrate-1.1.1.js"></script>
     <script src="js/script.js"></script>
@@ -19,16 +19,16 @@
     <script src="js/jquery.equalheights.js"></script>
     <script src="js/jquery.mobilemenu.js"></script>
     <script src="js/jquery.easing.1.3.js"></script>
-    <script src="js/camera.js"></script>
+    <!--lscript src="js/camera.js"></script-->
     <!--[if (gt IE 9)|!(IE)]><!-->
     <script src="js/jquery.mobile.customized.min.js"></script>
     <!--<![endif]-->
-    <script src="js/jquery.carouFredSel-6.1.0-packed.js"></script>
-    <script src="js/jquery.touchSwipe.min.js"></script>
+    <!--script src="js/jquery.carouFredSel-6.1.0-packed.js"></script-->
+    <!--script src="js/jquery.touchSwipe.min.js"></script-->
     <script type="text/javascript">
 
      
-  $(function(){
+  $(function(){		/*
       jQuery('#camera_wrap').camera({
         loader: false,
         pagination: false ,
@@ -38,7 +38,7 @@
         navigation: true,
         fx: 'mosaic',
         cols: 4
-      });
+      });		*/
 
       $().UItoTop({ easingType: 'easeOutQuart' });
       
@@ -66,7 +66,7 @@
             <div class="container_12">
                 <div class="grid_12">
                     <h1>
-                        <a href="index.php"><img src="images/icons/logo-2x.png"></a>
+                        <a href="index.php"><img src="images/icons/logo3.jpg"></a>
                     </h1>
                     <div class="head_top">
                         <form id="search" action="search.php" method="GET">
@@ -90,13 +90,10 @@
         </header>
 
     <div class="content">
-
-        <!--=======flashy stuff================================-->
-        <div class="container_12">
-            <div class="slider_wrapper">
+		<div class="container_12">			<div class="grid_12">				<img src="images/Home/Clarksburg.jpg" alt="Clarksburg">			</div>						</div>
+        <!--=======flashy stuff================================-->						<!-- 		<div class="container_12">					<div class="slider_wrapper">
                 <img src="images/Home/Clarksburg.jpg" alt="What we believe">
-                <!-- <div class="grid_12 alpha omega">
-
+                <div class="grid_12 alpha omega">
                         <div id="camera_wrap" class="">
                             <div data-src="images/icons/slide.jpg" data-thumb="images/icons/thumb.jpg">
                                 <div class="caption fadeIn">
@@ -110,8 +107,7 @@
                                 </div>
                             </div>
                             <div data-src="images/icons/slide2.jpg" data-thumb="images/icons/thumb2.jpg">
-                                <div class="caption fadeIn">
-                                    <h2>faith<span>Dive deeper into the faith!</span></h2>
+                                <div class="caption fadeIn">                                    <h2>faith<span>Dive deeper into the faith!</span></h2>
                                 </div>
                             </div>
                             <div data-src="images/icons/slide3.jpg" data-thumb="images/icons/thumb3.jpg">
@@ -120,12 +116,9 @@
                                 </div>
                             </div>
                         </div>
-                </div> -->
-            </div>
-            <!-- <div class="camera_thumbs_cont"></div> -->
-        </div>
-
-        <div class="page1_block">
+                </div>
+            <div class="camera_thumbs_cont"></div>		</div> -->
+        <div class="page1_block">					<div class="clear"></div>
             <div class="container_12">
                 <div class="grid_6">
                     <div class="box maxheight">

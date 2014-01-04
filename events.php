@@ -51,7 +51,7 @@
                 <div class="grid_12">
                     <h1>
                         <a href="index.php">
-                            <img src="images/icons/logo-2x.png">
+                            <img src="images/icons/logo3.jpg">
                         </a>
                     </h1>
                     <div class="head_top">
@@ -78,41 +78,10 @@
             <div class="container_12">
                 <div class="grid_12">
                     <div class="box head">
-                        <h3>News and Announcements</h3>
+                        <h3>Church Calendar</h3>
                     </div>
                     <div class="box bx1 mins">
-                        <div class="min maxheight">
-                            <img src="images/icons/page3_img1.jpg" alt="">
-                            <div class="text1"><a href="#">Aenean nonummy hendrerit  au.</a></div>Phasellus porta. Fusce suscipit varius mi. Cum sociis natoque penatibus et mag.
-                        </div>
-                        <div class="min maxheight">
-                            <img src="images/icons/page3_img2.jpg" alt="">
-                            <div class="text1"><a href="#">Donec sagittis euismod purus.</a></div>Phasellus porta. Fusce suscipit varius mi. Cum sociis natoque penatibus et mag.
-                        </div>
-                        <div class="min maxheight">
-                            <img src="images/icons/page3_img3.jpg" alt="">
-                            <div class="text1"><a href="#">Aenean nonummy hendrerit  au.</a></div>Phasellus porta. Fusce suscipit varius mi. Cum sociis natoque penatibus et mag.
-                        </div>
-                        <div class="min maxheight">
-                            <img src="images/icons/page3_img4.jpg" alt="">
-                            <div class="text1"><a href="#">Donec sagittis euismod purus.</a></div>Phasellus porta. Fusce suscipit varius mi. Cum sociis natoque penatibus et mag.
-                        </div>
-                        <div class="min maxheight">
-                            <img src="images/icons/page3_img5.jpg" alt="">
-                            <div class="text1"><a href="#">Aenean nonummy hendrerit  au.</a></div>Phasellus porta. Fusce suscipit varius mi. Cum sociis natoque penatibus et mag.
-                        </div>
-                        <div class="min maxheight">
-                            <img src="images/icons/page3_img6.jpg" alt="">
-                            <div class="text1"><a href="#">Donec sagittis euismod purus.</a></div>Phasellus porta. Fusce suscipit varius mi. Cum sociis natoque penatibus et mag.
-                        </div>
-                        <div class="min maxheight">
-                            <img src="images/icons/page3_img7.jpg" alt="">
-                            <div class="text1"><a href="#">Aenean nonummy hendrerit  au.</a></div>Phasellus porta. Fusce suscipit varius mi. Cum sociis natoque penatibus et mag.
-                        </div>
-                        <div class="min maxheight">
-                            <img src="images/icons/page3_img8.jpg" alt="">
-                            <div class="text1"><a href="#">Donec sagittis euismod purus.</a></div>Phasellus porta. Fusce suscipit varius mi. Cum sociis natoque penatibus et mag.
-                        </div>
+                        <iframe src="http://gracechurchclarksburg.ccbchurch.com/w_calendar.php" width="99%" height="650"></iframe>
                     </div>
                 </div>
             </div>
