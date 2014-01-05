@@ -49,7 +49,7 @@
   <div class="grid_12">
    <h1>
         <a href="index.php">
-          <img src="images/icons/logo3.jpg" alt="Grace Church">
+          <img src="images/icons/Grace-Church-Header-Glow.jpg" alt="Grace Church">
         </a>
       </h1>
       <div class="head_top">

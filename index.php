@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <title>Grace Church of Clarksburg: Clarksburg, MD</title>
@@ -66,7 +66,7 @@
             <div class="container_12">
                 <div class="grid_12">
                     <h1>
-                        <a href="index.php"><img src="images/icons/logo3.jpg"></a>
+                        <a href="index.php"><img src="images/icons/Grace-Church-Header-Glow.jpg"></a>
                     </h1>
                     <div class="head_top">
                         <form id="search" action="search.php" method="GET">
