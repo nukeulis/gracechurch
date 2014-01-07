@@ -639,17 +639,16 @@ a.link1.lnk1 {
 	height: 68px;
 }
 
-.table1 tbody td+td+td+td {
-	text-align: right;
-}
-
-
 .table1 tbody td {
-	text-align: center;
+	text-align: left;
 	vertical-align: middle;
 	padding-top: 0px;
 	height: 67px;
 	padding-bottom: 2px;
+}
+
+.table1 tbody td:last-child {
+	text-align: right;
 }
 
 .table1 a {
@@ -676,7 +675,11 @@ a.link1.lnk1 {
 	font: 16px/22px 'Karla', sans-serif;
 	background-color: #25a2d4;
 }
-.table1 thead th {	padding-left: 16px;	padding: 9px 9px 9px 16px;}
+.table1 thead th {	
+    padding-left: 16px;	
+    padding: 9px 9px 9px 16px;
+    text-align:left;
+}
 
 table.tablesorter thead tr .header {
 	background-image: url(../images/icons/ts.bg.gif);
@@ -947,14 +950,9 @@ footer h4 {
 	padding-right: 20px;
 	padding-top: 20px;
 	padding-bottom: 20px;
-	width: 80px;
  }
-.table1 thead th:first-child {	padding-left: 3px !important;}
-.table1 thead td:first-child {
-	padding-left: 3px !important;
-}
-.table1  td:first-child {
-    width: 80px;
+.table1 thead th:first-child { padding-left: 3px !important;}
+.table1 thead td:first-child { padding-left: 3px !important;
 }
 ul.list {
 	width: 35%;
@@ -972,15 +970,11 @@ ul.list {
 	padding-left: 0 !important;
 	padding-right: 4px !important;
 }
-.table1 tbody td:first-child {
-    width: auto;
-}
 .table1 td {
 	padding-right: 10px !important;
 }
 .table1  td:first-child {
 	padding-right: 0 !important;
-	width: auto;
  }
 .video img {
 	width: 100%;

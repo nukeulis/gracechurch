@@ -75,10 +75,9 @@
                      <table class="table1 tablesorter" id="sermons">
                         <thead>
                            <tr>
+                              <th>Date</th>
                               <th>Sermon</th>
                               <th>Speaker</th>
-                              <th>Series</th>
-                              <th>Date</th>
                               <th>Listen</th>
                            </tr>
                         </thead>
@@ -98,23 +97,25 @@
                             global $ID3v23FrameTypes,$ID3v22FrameTypes;
                             FGetID3v2Tag($path[0],2,$TAG,$FRAME_ID,$FRAME_OFFSET,$FRAME_SIZE,$FRAME_FLAGS,$FRAME_ENCODING,$FRAME_LANGUAGE,$FRAME_DATA,$FRAME_EXTRA);
 							for($elem=0;$elem<$TAG["nb_frames"];$elem++){
-								if ($FRAME_ID[$elem] == "TT2"){
+								if ($FRAME_ID[$elem] == "TT2"){ // Title
 									$TT2 = $FRAME_DATA[$elem];
 								}
-								if ($FRAME_ID[$elem] == "TP1"){
+								if ($FRAME_ID[$elem] == "TP1"){ // Artist
 									$TP1 = $FRAME_DATA[$elem];
 								}
-								if ($FRAME_ID[$elem] == "TAL"){
+								if ($FRAME_ID[$elem] == "TAL"){ // Series
 									$TAL = $FRAME_DATA[$elem];
 								}
 								//"TT2" "TP1" "TAL" "TRK" "TPA" "TYE" "TCO" "TEN" "COM" "COM" "COM"
 								//print("<!-- [" . $FRAME_DATA[$elem] . " :: " . $FRAME_ID[$elem] . "]-->");	
 							}
+                            if ($TAL != ""){
+                                $TAL = "<br />(" . $TAL . ")";
+                            }
 							echo("<tr>");
-							echo("<td>" . explode(" - ",$TT2)[0] . "</td>");//TT2
-							echo("<td>" . $TP1 . "</td>");//TP1
-							echo("<td>" . $TAL . "</td>");//TP1
-							echo("<td>" . explode(" - ",$TT2)[1] . "</td>");//TT2
+							echo("<td>" . explode(" - ",$TT2)[1] . "</td>");
+							echo("<td>" . explode(" - ",$TT2)[0] . "</td>");
+							echo("<td>" . $TP1 . $TAL .  "</td>");
 							echo("<td><a href='" . $path[0] . "'>mp3</a></td>");
 							echo("</tr>");
 						}
