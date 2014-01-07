@@ -102,7 +102,7 @@
                     <h3 id="beliefs">What we believe</h3>
                 </div>
                 <div class="box bx1 tbox">
-                    <img src="images/About/What_We_Believe-Banner.jpg" alt="What we believe">
+                    <img style="width:100%;" src="images/About/What_We_Believe-Banner.jpg" alt="What we believe">
                     <br><br>
                     <p class="text1">At the core of what we believe is the gospel of Jesus Christ – the glorious truth that Jesus Christ died and was raised so that sinners would be reconciled to God.</p>
                     <p>The gospel is our primary passion and driving influence in our church’s preaching, worship, small groups, and outreach. Our Statement of Faith can be found on 
