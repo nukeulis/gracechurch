@@ -106,7 +106,7 @@
                     <br><br>
                     <p class="text1">At the core of what we believe is the gospel of Jesus Christ – the glorious truth that Jesus Christ died and was raised so that sinners would be reconciled to God.</p>
                     <p>The gospel is our primary passion and driving influence in our church’s preaching, worship, small groups, and outreach. Our Statement of Faith can be found on 
-                                the <a href="http://www.sovereigngraceministries.org/about-us/what-we-believe.aspx" class="link-1">Sovereign Grace Churches website</a>.</p>
+                                the <a href="http://www.sovereigngraceministries.org/about-us/what-we-believe.aspx" target="_blank" class="link-1">Sovereign Grace Churches website</a>.</p>
                 </div>
                 <div class="clear"></div>
                 <div class="box middle">
