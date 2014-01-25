@@ -115,7 +115,7 @@
 							echo("<tr>");
 							echo("<td>" . explode(" - ",$TT2)[1] . "</td>");
 							echo("<td>" . explode(" - ",$TT2)[0] . "</td>");
-							echo("<td>" . $TP1 . $TAL .  "</td>");
+							echo("<td>" . $TP1 . $TAL .  "</td>"); $TAL = "";
 							echo("<td><a href='" . $path[0] . "'>mp3</a></td>");
 							echo("</tr>");
 						}
