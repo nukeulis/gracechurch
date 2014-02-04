@@ -28,7 +28,10 @@
 		var pathname = window.location.pathname;
 		pathname = pathname.substring(pathname.lastIndexOf('/') + 1);
 		$("nav ul li a[href='" + pathname + "']").parent().addClass('current');
-		$("#sermons").tablesorter( {sortList: [[3,1]]} ); 
+		$("#sermons").tablesorter({
+		    headers: { 0: { sorter: "shortDate", dateFormat: "MM dd, yyyy" } },
+		    sortList: [[0, 1]]
+		});
 	  });	  
 	  </script>
 	  <!--[if lt IE 8]>       
@@ -116,7 +119,7 @@
 							echo("<td>" . explode(" - ",$TT2)[1] . "</td>");
 							echo("<td>" . explode(" - ",$TT2)[0] . "</td>");
 							echo("<td>" . $TP1 . $TAL .  "</td>"); $TAL = "";
-							echo("<td><a href='" . $path[0] . "'>mp3</a></td>");
+							echo("<td><audio><source src='" . $path[0] . "' type='audio/mpeg'></audio><a href='" . $path[0] . "'>mp3</a></td>");
 							echo("</tr>");
 						}
 						?>
