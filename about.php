@@ -123,7 +123,7 @@
 
                     <p class="text1">Membership class</p>
                     <p>Our member’s class will provide an introduction to Grace Church.  It’s a great way to connect with our pastor, get your questions answered, and determine if this is where God wants you 
-                        to be.  Check out our Membership page here.</p>
+                        to be.<!--  Check out our Membership page here.--></p>
 
                     <p class="text1">Serving Opportunities</p>
                     <p>If you want to find a place to serve, please fill out the contact form.  While we can’t promise you’ll be able to serve immediately, it will help to know your desires.  

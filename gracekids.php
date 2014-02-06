@@ -87,7 +87,7 @@
                     <ul class="bullet-list">
                       <li>Enjoy fun, interactive, and educational times together</li>
                       <li>Read and learn from the Bible (the whole thing)</li>
-                      <li>Understand how each part of the bible points to Jesus</li>
+                      <li>Understand how each part of the Bible points to Jesus</li>
                     </ul>
 
                     <p class="text1">How it Works</p>
