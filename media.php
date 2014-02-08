@@ -119,7 +119,9 @@
 							echo("<td>" . explode(" - ",$TT2)[1] . "</td>");
 							echo("<td>" . explode(" - ",$TT2)[0] . "</td>");
 							echo("<td>" . $TP1 . $TAL .  "</td>"); $TAL = "";
-							echo("<td><audio><source src='" . $path[0] . "' type='audio/mpeg'></audio><a href='" . $path[0] . "'>mp3</a></td>");
+							$filePaths = explode("/",$path[0]);
+							$file = $filePaths[2] . "/" . $filePaths[3];
+							echo("<td><a href='play.php?file=" . $file . "' target='_blank'>Play</a> <a href='mp3.php?file=" . $file . "'>Save</a></td>");
 							echo("</tr>");
 						}
 						?>
