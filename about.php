@@ -24,8 +24,8 @@
     // Random encryption key feature by Andrew Moulden, Site Engineering Ltd
     // This code is freeware provided these four comment lines remain intact
     // A wizard to generate this code is at http://www.jottings.com/obfuscator/
-    var coded = "zsaMzL.m4as@WhsIM.b4h";
-    var key = "ZAYXFgqm0p7zwj4a5cHS9JRxBOWEhKukdiytslb2VDN13T8PnQ6UevIorLMCGf";
+    var coded = "cj76@CdMRQR05dR0ln.6dC";
+    var key = "o4tjS9lP5IL8iegVpE173d6hwAYFazsxTNcQCBHZkK2ny0mquJMGWXDvRUOfbr";
     var shift=coded.length;
     var link="";
     for (i=0; i<coded.length; i++) {
